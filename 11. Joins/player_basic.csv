@@ -1,0 +1,454 @@
+name,team,date_of_birth,palce_of_birth,role,height,test_bat_rank,odi_bat_rank,t20_bat_rank,test_bow_rank,odi_bow_rank,t20_bow_rank,link
+Virat Kohli,India,"Nov 05, 1988 (34 years)",Delhi,Batsman,5 ft 9 in (175 cm),11,10,13,--,--,--,https://www.cricbuzz.com/profiles/1413/virat-kohli
+Rohit Sharma,India,"Apr 30, 1987 (35 years)","Nagpur, Maharashtra",Batsman,--,9,9,21,--,--,--,https://www.cricbuzz.com/profiles/576/rohit-sharma
+Shikhar Dhawan,India,"Dec 05, 1985 (37 years)",Delhi,Batsman,--,--,17,--,--,--,--,https://www.cricbuzz.com/profiles/1446/shikhar-dhawan
+Shubman Gill,India,"Sep 08, 1999 (23 years)","Firozpur, Punjab",Batsman,--,62,36,--,--,--,--,https://www.cricbuzz.com/profiles/11808/shubman-gill
+Shreyas Iyer,India,"Dec 06, 1994 (28 years)",Mumbai,Batsman,--,37,20,55,--,--,--,https://www.cricbuzz.com/profiles/9428/shreyas-iyer
+Manish Pandey,India,"Sep 10, 1989 (33 years)","Nainital, Uttaranchal",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1836/manish-pandey
+Mayank Agarwal,India,"Feb 16, 1991 (31 years)","Bangalore, Karnataka",Batsman,--,24,--,--,--,--,--,https://www.cricbuzz.com/profiles/2195/mayank-agarwal
+Prithvi Shaw,India,"Nov 09, 1999 (23 years)","Thane, Maharashtra",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/12094/prithvi-shaw
+Cheteshwar Pujara,India,"Jan 25, 1988 (34 years)","Rajkot, Gujarat",Batsman,--,28,--,--,--,--,--,https://www.cricbuzz.com/profiles/1448/cheteshwar-pujara
+Ajinkya Rahane,India,"Jun 06, 1988 (34 years)","Ashwi-KD, Maharashtra",Batsman,--,40,--,--,--,--,--,https://www.cricbuzz.com/profiles/1447/ajinkya-rahane
+Hardik Pandya,India,"Oct 11, 1993 (29 years)","Choryasi, Gujarat",Batting Allrounder,--,--,71,50,--,--,86,https://www.cricbuzz.com/profiles/9647/hardik-pandya
+Hanuma Vihari,India,"Oct 13, 1993 (29 years)","Kakinada, Andhra Pradesh",Batting Allrounder,--,55,--,--,--,--,--,https://www.cricbuzz.com/profiles/8424/hanuma-vihari
+Ravindra Jadeja,India,"Dec 06, 1988 (34 years)","Navagam-Khed, Saurashtra",Bowling Allrounder,--,36,--,--,19,62,--,https://www.cricbuzz.com/profiles/587/ravindra-jadeja
+Ravichandran Ashwin,India,"Sep 17, 1986 (36 years)","Chennai, Tamil Nadu",Bowling Allrounder,--,86,--,--,2,--,22,https://www.cricbuzz.com/profiles/1593/ravichandran-ashwin
+KL Rahul,India,"Apr 18, 1992 (30 years)","Mangaluru, Karnataka",WK-Batsman,--,47,35,19,--,--,--,https://www.cricbuzz.com/profiles/8733/kl-rahul
+Sanju Samson,India,"Nov 11, 1994 (28 years)","Pulluvila, Vizhinjam, Trivandrum",WK-Batsman,--,--,89,--,--,--,--,https://www.cricbuzz.com/profiles/8271/sanju-samson
+Wriddhiman Saha,India,"Oct 24, 1984 (38 years)",Shaktigarh,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1465/wriddhiman-saha
+Rishabh Pant,India,"Oct 04, 1997 (25 years)","Haridwar, Uttarakhand",WK-Batsman,--,5,82,82,--,--,--,https://www.cricbuzz.com/profiles/10744/rishabh-pant
+Mohammed Shami,India,"Sep 03, 1990 (32 years)","Amroha, Uttar Pradesh",Bowler,--,--,--,--,17,44,87,https://www.cricbuzz.com/profiles/7909/mohammed-shami
+Jasprit Bumrah,India,"Dec 06, 1993 (29 years)",Ahmedabad,Bowler,--,--,--,--,4,16,79,https://www.cricbuzz.com/profiles/9311/jasprit-bumrah
+Kuldeep Yadav,India,"Dec 14, 1994 (27 years)","Kanpur, Uttar Pradesh",Bowler,--,--,--,--,69,28,--,https://www.cricbuzz.com/profiles/8292/kuldeep-yadav
+Yuzvendra Chahal,India,"Jul 23, 1990 (32 years)","Jind, Haryana",Bowler,--,--,--,--,--,27,40,https://www.cricbuzz.com/profiles/7910/yuzvendra-chahal
+Navdeep Saini,India,"Nov 23, 1992 (30 years)","Karnal, Haryana",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9715/navdeep-saini
+Shardul Thakur,India,"Oct 16, 1991 (31 years)","Palghar, Maharashtra",Bowler,--,--,--,--,50,42,--,https://www.cricbuzz.com/profiles/8683/shardul-thakur
+Umesh Yadav,India,"Oct 25, 1987 (35 years)","Nagpur, Maharashtra",Bowler,--,--,--,--,39,--,--,https://www.cricbuzz.com/profiles/1858/umesh-yadav
+Mohammed Siraj,India,"Mar 13, 1994 (28 years)",Hyderabad,Bowler,--,--,--,--,48,26,92,https://www.cricbuzz.com/profiles/10808/mohammed-siraj
+William Porterfield,Ireland,"Sep 06, 1984 (38 years)",Londonderry,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/625/william-porterfield
+James McCollum,Ireland,"Aug 01, 1995 (27 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/13942/james-mccollum
+Andrew Balbirnie,Ireland,"Dec 28, 1990 (31 years)","Dublin, Ireland",Batsman,--,--,43,48,--,--,--,https://www.cricbuzz.com/profiles/6710/andrew-balbirnie
+Tyrone Kane,Ireland,"Jul 08, 1994 (28 years)","Dublin, Ireland",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10415/tyrone-kane
+Kevin O Brien,Ireland,"Mar 04, 1984 (38 years)","Dublin, Ireland",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/690/kevin-o-brien
+Paul Stirling,Ireland,"Sep 03, 1990 (32 years)",Ireland,Batting Allrounder,--,--,15,26,--,--,--,https://www.cricbuzz.com/profiles/1114/paul-stirling
+Stuart Thompson,Ireland,"Aug 15, 1991 (31 years)","Londonderry, Ireland",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7985/stuart-thompson
+Gary Wilson,Ireland,"Feb 05, 1986 (36 years)","Dundonald, Northern Ireland",WK-Batsman,5 ft 10 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/739/gary-wilson
+Lorcan Tucker,Ireland,"Sep 10, 1996 (26 years)",Ireland,WK-Batsman,--,--,--,69,--,--,--,https://www.cricbuzz.com/profiles/11131/lorcan-tucker
+Peter Chase,Ireland,"Oct 09, 1993 (29 years)","Dublin, Ireland",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10099/peter-chase
+George Dockrell,Ireland,"Jul 22, 1992 (30 years)",Dublin,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6329/george-dockrell
+Tim Murtagh,Ireland,"Aug 02, 1981 (41 years)","Lambeth, London",Bowler,6 ft 2 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6661/tim-murtagh
+Mark Adair,Ireland,"Mar 27, 1996 (26 years)","Holywood, Northern Ireland",Bowler,--,--,--,--,--,--,65,https://www.cricbuzz.com/profiles/10449/mark-adair
+Andy McBrine,Ireland,"Apr 30, 1993 (29 years)",Northern Ireland,Bowler,--,--,--,--,--,14,--,https://www.cricbuzz.com/profiles/9667/andy-mcbrine
+Barry McCarthy,Ireland,"Sep 13, 1992 (30 years)",--,Bowler,--,--,--,--,--,--,100,https://www.cricbuzz.com/profiles/10451/barry-mccarthy
+Boyd Rankin,Ireland,"Jul 05, 1984 (38 years)",Londonderry,Bowler,6 ft 7 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/626/boyd-rankin
+Aaron Finch,Australia,"Nov 17, 1986 (36 years)","Colac, Victoria",Batsman,1.74 m,--,23,9,--,--,--,https://www.cricbuzz.com/profiles/1643/aaron-finch
+Steven Smith,Australia,"Jun 02, 1989 (33 years)","Sydney, New South Wales",Batsman,--,2,6,--,--,--,--,https://www.cricbuzz.com/profiles/2250/steven-smith
+David Warner,Australia,"Oct 27, 1986 (36 years)","Paddington, New South Wales",Batsman,1.70 m,23,5,39,--,--,--,https://www.cricbuzz.com/profiles/1739/david-warner
+Joe Burns,Australia,"Sep 06, 1989 (33 years)","Herston, Brisbane, Queensland",Batsman,--,73,--,--,--,--,--,https://www.cricbuzz.com/profiles/8121/joe-burns
+Will Pucovski,Australia,"Feb 02, 1998 (24 years)","Malvern, Victoria",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/12228/will-pucovski
+Glenn Maxwell,Australia,"Oct 14, 1988 (34 years)","Kew, Melbourne, Victoria",Batting Allrounder,--,--,25,36,--,--,--,https://www.cricbuzz.com/profiles/7662/glenn-maxwell
+Marcus Stoinis,Australia,"Aug 16, 1989 (33 years)",Perth,Batting Allrounder,--,--,77,40,--,--,--,https://www.cricbuzz.com/profiles/8989/marcus-stoinis
+Moises Henriques,Australia,"Feb 01, 1987 (35 years)","Funchal, Portugal",Batting Allrounder,1.87 m,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1437/moises-henriques
+Marnus Labuschagne,Australia,"Jun 22, 1994 (28 years)","Klerksdorp, North West Province, South Africa",Batting Allrounder,--,1,69,--,--,--,--,https://www.cricbuzz.com/profiles/10182/marnus-labuschagne
+Travis Head,Australia,"Dec 29, 1993 (28 years)","Adelaide, South Australia",Batting Allrounder,--,13,30,--,--,--,--,https://www.cricbuzz.com/profiles/8497/travis-head
+Michael Neser,Australia,"Mar 29, 1990 (32 years)","Pretoria, South Africa",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8130/michael-neser
+Ashton Agar,Australia,"Oct 14, 1993 (29 years)","Melbourne, Victoria",Bowling Allrounder,--,--,--,--,--,85,26,https://www.cricbuzz.com/profiles/8508/ashton-agar
+Cameron Green,Australia,"Jun 03, 1999 (23 years)",--,Bowling Allrounder,--,41,--,--,77,--,--,https://www.cricbuzz.com/profiles/12225/cameron-green
+Daniel Sams,Australia,"Oct 27, 1992 (30 years)","Milperra, New South Wales",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/13162/daniel-sams
+Sean Abbott,Australia,"Feb 29, 1992 (30 years)","Windsor, New South Wales",Bowling Allrounder,--,--,--,--,--,97,--,https://www.cricbuzz.com/profiles/8136/sean-abbott
+Alex Carey,Australia,"Aug 27, 1991 (31 years)","Loxton, South Australia",WK-Batsman,--,57,22,--,--,--,--,https://www.cricbuzz.com/profiles/9200/alex-carey
+Matthew Wade,Australia,"Dec 26, 1987 (34 years)","Hobart, Tasmania",WK-Batsman,1.70 m,72,--,66,--,--,--,https://www.cricbuzz.com/profiles/1649/matthew-wade
+Tim Paine,Australia,"Dec 08, 1984 (38 years)","Hobart, Tasmania",WK-Batsman,1.80 m,58,--,--,--,--,--,https://www.cricbuzz.com/profiles/1994/tim-paine
+Pat Cummins,Australia,"May 08, 1993 (29 years)","Westmead, Sydney",Bowler,1.92 m,--,--,--,1,17,46,https://www.cricbuzz.com/profiles/8095/pat-cummins
+Nathan Lyon,Australia,"Nov 20, 1987 (35 years)","Young, New South Wales",Bowler,1.81 m,--,--,--,15,--,--,https://www.cricbuzz.com/profiles/7850/nathan-lyon
+Mitchell Starc,Australia,"Jan 30, 1990 (32 years)","Baulkham Hills, Sydney, New South Wales",Bowler,1.96 m,--,--,--,10,3,44,https://www.cricbuzz.com/profiles/7710/mitchell-starc
+Adam Zampa,Australia,"Mar 31, 1992 (30 years)","Shellharbour, New South Wales",Bowler,--,--,--,--,--,7,7,https://www.cricbuzz.com/profiles/8642/adam-zampa
+Josh Hazlewood,Australia,"Jan 08, 1991 (31 years)","Tamworth, New South Wales",Bowler,1.96 m,--,--,--,14,2,4,https://www.cricbuzz.com/profiles/6258/josh-hazlewood
+Andrew Tye,Australia,"Dec 12, 1986 (35 years)","Perth, Western Australia",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9617/andrew-tye
+James Pattinson,Australia,"May 03, 1990 (32 years)","Melbourne, Victoria",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/2283/james-pattinson
+Mitchell Swepson,Australia,"Oct 04, 1993 (29 years)",--,Bowler,--,--,--,--,98,--,--,https://www.cricbuzz.com/profiles/10626/mitchell-swepson
+Tamim Iqbal,Bangladesh,"Mar 20, 1989 (33 years)",Chittagong,Batsman,--,42,14,--,--,--,--,https://www.cricbuzz.com/profiles/612/tamim-iqbal
+Soumya Sarkar,Bangladesh,"Feb 25, 1993 (29 years)",Satkhira,Batsman,--,--,74,--,--,--,--,https://www.cricbuzz.com/profiles/8233/soumya-sarkar
+Sabbir Rahman,Bangladesh,"Nov 22, 1991 (31 years)",Rajsahi,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8231/sabbir-rahman
+Mahmudullah,Bangladesh,"Feb 04, 1986 (36 years)",Mymensingh,Batting Allrounder,--,60,37,65,99,--,--,https://www.cricbuzz.com/profiles/1121/mahmudullah
+Shakib Al Hasan,Bangladesh,"Mar 24, 1987 (35 years)","Magura, Jessore",Batting Allrounder,--,44,33,63,30,9,32,https://www.cricbuzz.com/profiles/544/shakib-al-hasan
+Mosaddek Hossain,Bangladesh,"Dec 10, 1995 (26 years)",Mymensingh,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8541/mosaddek-hossain
+Mohammad Saifuddin,Bangladesh,"Nov 01, 1996 (26 years)","Feni, Chittagong",Bowling Allrounder,--,--,--,--,--,80,--,https://www.cricbuzz.com/profiles/11084/mohammad-saifuddin
+Mehidy Hasan Miraz,Bangladesh,"Oct 25, 1997 (25 years)",Khulna,Bowling Allrounder,--,--,--,--,31,8,--,https://www.cricbuzz.com/profiles/11081/mehidy-hasan-miraz
+Mushfiqur Rahim,Bangladesh,"Jun 09, 1987 (35 years)",Bogra,WK-Batsman,--,20,18,--,--,--,--,https://www.cricbuzz.com/profiles/394/mushfiqur-rahim
+Litton Das,Bangladesh,"Oct 13, 1994 (28 years)",Dinajpur,WK-Batsman,--,14,29,32,--,--,--,https://www.cricbuzz.com/profiles/8540/litton-das
+Mohammad Mithun,Bangladesh,"Mar 02, 1991 (31 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8221/mohammad-mithun
+Mashrafe Mortaza,Bangladesh,"Oct 05, 1983 (39 years)","Norail, Jessore",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/323/mashrafe-mortaza
+Rubel Hossain,Bangladesh,"Jan 01, 1990 (32 years)","Bagerhat, Khulna",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1736/rubel-hossain
+Mustafizur Rahman,Bangladesh,"Sep 06, 1995 (27 years)",Satkhira,Bowler,--,--,--,--,80,10,35,https://www.cricbuzz.com/profiles/9863/mustafizur-rahman
+Abu Jayed,Bangladesh,"Aug 02, 1993 (29 years)",Sylhet,Bowler,--,--,--,--,78,--,--,https://www.cricbuzz.com/profiles/8536/abu-jayed
+Darren Bravo,West Indies,"Feb 06, 1989 (33 years)",Trinidad,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1610/darren-bravo
+Chris Gayle,West Indies,"Sep 21, 1979 (43 years)","Kingston, Jamaica",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/247/chris-gayle
+Evin Lewis,West Indies,"Dec 27, 1991 (30 years)","Port of Spain, Trinidad",Batsman,--,--,80,67,--,--,--,https://www.cricbuzz.com/profiles/8579/evin-lewis
+Shimron Hetmyer,West Indies,"Dec 26, 1996 (25 years)","Cumberland, Berbice, Guyana",Batsman,--,--,59,98,--,--,--,https://www.cricbuzz.com/profiles/9789/shimron-hetmyer
+Fabian Allen,West Indies,"May 07, 1995 (27 years)","Kingston, Jamaica",Batting Allrounder,--,--,--,--,--,--,94,https://www.cricbuzz.com/profiles/9785/fabian-allen
+Jason Holder,West Indies,"Nov 05, 1991 (31 years)",Barbados,Bowling Allrounder,--,64,--,--,22,57,37,https://www.cricbuzz.com/profiles/8313/jason-holder
+Andre Russell,West Indies,"Apr 29, 1988 (34 years)",Jamaica,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7736/andre-russell
+Carlos Brathwaite,West Indies,"Jul 18, 1988 (34 years)",Barbados,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8110/carlos-brathwaite
+Shai Hope,West Indies,"Nov 10, 1993 (29 years)",Barbados,WK-Batsman,--,97,12,--,--,--,--,https://www.cricbuzz.com/profiles/10384/shai-hope
+Nicholas Pooran,West Indies,"Oct 02, 1995 (27 years)",Trinidad,WK-Batsman,--,--,28,18,--,--,--,https://www.cricbuzz.com/profiles/9406/nicholas-pooran
+Sheldon Cottrell,West Indies,"Aug 19, 1989 (33 years)",Jamaica,Bowler,--,--,--,--,--,65,77,https://www.cricbuzz.com/profiles/9395/sheldon-cottrell
+Shannon Gabriel,West Indies,"Apr 28, 1988 (34 years)",Trinidad,Bowler,--,--,--,--,35,--,--,https://www.cricbuzz.com/profiles/8092/shannon-gabriel
+Kemar Roach,West Indies,"Jun 30, 1988 (34 years)","St. Lucy, Barbados",Bowler,--,--,--,--,12,--,--,https://www.cricbuzz.com/profiles/1359/kemar-roach
+Ashley Nurse,West Indies,"Dec 22, 1988 (33 years)","Gibbons, Christ Church, Barbados",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7922/ashley-nurse
+Oshane Thomas,West Indies,"Feb 18, 1997 (25 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11442/oshane-thomas
+Craig Ervine,Zimbabwe,"Aug 19, 1985 (37 years)",Harare,Batsman,--,--,92,99,--,--,--,https://www.cricbuzz.com/profiles/6334/craig-ervine
+Hamilton Masakadza,Zimbabwe,"Aug 09, 1983 (39 years)",Harare,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/425/hamilton-masakadza
+Sikandar Raza,Zimbabwe,"Apr 24, 1986 (36 years)","Sialkot, Punjab, Pakistan",Batting Allrounder,--,52,32,70,68,76,78,https://www.cricbuzz.com/profiles/9354/sikandar-raza
+Sean Williams,Zimbabwe,"Sep 26, 1986 (36 years)",Bulawayo,Batting Allrounder,--,32,53,78,100,--,91,https://www.cricbuzz.com/profiles/441/sean-williams
+Solomon Mire,Zimbabwe,"Aug 21, 1989 (33 years)",Harare,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9737/solomon-mire
+Brian Chari,Zimbabwe,"Feb 14, 1992 (30 years)",--,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10168/brian-chari
+Timycen Maruma,Zimbabwe,"Apr 19, 1988 (34 years)",Harare,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/782/timycen-maruma
+Elton Chigumbura,Zimbabwe,"Mar 14, 1986 (36 years)","Kwekwe, Midlands",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/170/elton-chigumbura
+Regis Chakabva,Zimbabwe,"Sep 20, 1987 (35 years)",Harare,WK-Batsman,--,82,--,--,--,--,--,https://www.cricbuzz.com/profiles/781/regis-chakabva
+Brendan Taylor,Zimbabwe,"Feb 06, 1986 (36 years)",Harare,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/180/brendan-taylor
+Peter Moor,Zimbabwe,"Feb 02, 1991 (31 years)",Harare,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10195/peter-moor
+Tendai Chatara,Zimbabwe,"Feb 28, 1991 (31 years)",Chimaniamani,Bowler,--,--,--,--,--,83,66,https://www.cricbuzz.com/profiles/6483/tendai-chatara
+Donald Tiripano,Zimbabwe,"Mar 17, 1988 (34 years)",Mutare,Bowler,--,--,--,--,83,--,--,https://www.cricbuzz.com/profiles/10066/donald-tiripano
+Chris Mpofu,Zimbabwe,"Nov 27, 1985 (37 years)","Plumtree, Matabeleland",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/428/chris-mpofu
+Kyle Jarvis,Zimbabwe,"Feb 16, 1989 (33 years)",Harare,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/2289/kyle-jarvis
+Brandon Mavuta,Zimbabwe,"Mar 04, 1997 (25 years)",Kadoma,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11224/brandon-mavuta
+Kila Pala,Papua New Guinea,"May 16, 1985 (37 years)","Port Moresby, Papua New Guinea",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10113/kila-pala
+Charles Amini,Papua New Guinea,"Apr 14, 1992 (30 years)",Port Moresby,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10428/charles-amini
+Mahuru Dai,Papua New Guinea,"May 30, 1984 (38 years)",Port Moresby,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10191/mahuru-dai
+Vani Morea,Papua New Guinea,"Mar 13, 1983 (39 years)","Port Moresby, Papua New Guinea",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10118/vani-morea
+Lega Siaka,Papua New Guinea,"Dec 21, 1992 (29 years)",Port Moresby,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8467/lega-siaka
+Assad Vala,Papua New Guinea,"Aug 05, 1987 (35 years)",Papua New Guinea,Batting Allrounder,--,--,44,--,--,79,--,https://www.cricbuzz.com/profiles/10120/assad-vala
+Assad Vala,Papua New Guinea,"Aug 05, 1987 (35 years)",Papua New Guinea,Batting Allrounder,--,--,44,--,--,79,--,https://www.cricbuzz.com/profiles/10120/assad-vala
+Chris Amini,Papua New Guinea,"Jun 12, 1984 (38 years)",Port Moresby,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10116/chris-amini
+Sese Bau,Papua New Guinea,"Jun 23, 1992 (30 years)",--,Bowling Allrounder,--,--,--,90,--,--,--,https://www.cricbuzz.com/profiles/8470/sese-bau
+Willie Gavera,Papua New Guinea,"Aug 18, 1988 (34 years)",Papua New Guinea,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10111/willie-gavera
+Pipi Raho,Papua New Guinea,"Mar 04, 1988 (34 years)",Port Morseby,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10119/pipi-raho
+John Reva,Papua New Guinea,"Sep 23, 1990 (32 years)",Port Moresby,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10114/john-reva
+Norman Vanua,Papua New Guinea,"Dec 02, 1993 (29 years)",--,Bowling Allrounder,--,--,--,100,--,--,--,https://www.cricbuzz.com/profiles/8480/norman-vanua
+Dogodo Bau,Papua New Guinea,"Dec 05, 1994 (28 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8469/dogodo-bau
+Geraint Jones,Papua New Guinea,"Jul 14, 1976 (46 years)","Kundiawa, Papua New Guinea",WK-Batsman,5 ft 10 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/165/geraint-jones
+Tony Ura,Papua New Guinea,"Oct 15, 1989 (33 years)",Papua New Guinea,WK-Batsman,--,--,--,41,--,--,--,https://www.cricbuzz.com/profiles/10115/tony-ura
+Jack Vare,Papua New Guinea,"Feb 14, 1986 (36 years)",Papua New Guinea,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10121/jack-vare
+Hiri Hiri,Papua New Guinea,"May 01, 1995 (27 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9906/hiri-hiri
+Loa Nou,Papua New Guinea,"Dec 31, 1987 (34 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10425/loa-nou
+Nosaina Pokana,Papua New Guinea,"Apr 12, 1996 (26 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9910/nosaina-pokana
+Chad Soper,Papua New Guinea,"Nov 19, 1991 (31 years)",Port Moresby,Bowler,--,--,--,--,--,55,--,https://www.cricbuzz.com/profiles/8477/chad-soper
+Jatinder Singh,Oman,"Mar 05, 1989 (33 years)",--,Batsman,--,--,64,73,--,--,--,https://www.cricbuzz.com/profiles/10453/jatinder-singh
+Arun Poulose,Oman,"Jul 22, 1986 (36 years)","Aluva, Ernakulam, Kerala",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10454/arun-poulose
+Vaibhav Wategaonkar,Oman,"Aug 30, 1982 (40 years)","Mumbai, India",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10455/vaibhav-wategaonkar
+Zeeshan Siddiqui,Oman,"Jul 22, 1979 (43 years)","Karachi, Sind, Pakistan",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10456/zeeshan-siddiqui
+Zeeshan Maqsood,Oman,"Oct 24, 1987 (35 years)",--,Batting Allrounder,--,--,62,75,--,50,--,https://www.cricbuzz.com/profiles/10466/zeeshan-maqsood
+Amir Ali,Oman,"Nov 24, 1978 (44 years)","Karachi, Sind",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10452/amir-ali
+Khawar Ali,Oman,"Dec 20, 1985 (36 years)",Pakistan,Batting Allrounder,--,--,--,--,--,96,96,https://www.cricbuzz.com/profiles/10467/khawar-ali
+Mehran Khan,Oman,"Apr 13, 1987 (35 years)",--,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10464/mehran-khan
+Twinkal Bhandari,Oman,"Oct 16, 1987 (35 years)","Vapi, Gujarat",WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11833/twinkal-bhandari
+Ajay Lalcheta,Oman,"Oct 22, 1983 (39 years)","Gujarat, India",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10458/ajay-lalcheta
+Sufyan Mehmood,Oman,"Oct 21, 1991 (31 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10461/sufyan-mehmood
+Rajeshkumar Ranpura,Oman,"Jul 17, 1983 (39 years)","Palanpur, Gujarat, India",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10460/rajeshkumar-ranpura
+Munis Ansari,Oman,"Apr 01, 1984 (38 years)","Sehore, Madhya Pradesh, India",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10457/munis-ansari
+Mohammad Nadeem,Oman,"Sep 04, 1982 (40 years)","Sialkot, Pakistan",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10459/mohammad-nadeem
+Swapnil Khadye,Oman,--,--,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10821/swapnil-khadye
+Trevin Bastiampillai,Canada,"Oct 26, 1985 (37 years)",Sri Lanka,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/815/trevin-bastiampillai
+Tyson Gordon,Canada,"Jan 31, 1982 (40 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7852/tyson-gordon
+Ruvindu Gunasekera,Canada,"Jul 20, 1991 (31 years)",Colombo,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1422/ruvindu-gunasekera
+Jimmy Hansra,Canada,"Dec 29, 1984 (37 years)","Ludhiana, India",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7676/jimmy-hansra
+Junaid Siddique,Canada,"Oct 30, 1987 (35 years)",Rajshahi,Batsman,--,--,--,--,--,--,97,https://www.cricbuzz.com/profiles/784/junaid-siddique
+Nitish Kumar,Canada,"May 21, 1994 (28 years)","Scarborough, Ontario",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6474/nitish-kumar
+Hiral Patel,Canada,"Aug 10, 1991 (31 years)","Ahmedabad, Gujarat, India",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3289/hiral-patel
+Rizwan Cheema,Canada,"Aug 15, 1978 (44 years)",Pakistan,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1426/rizwan-cheema
+Durand Soraine,Canada,"Sep 11, 1983 (39 years)",India,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/823/durand-soraine
+Zubin Surkari,Canada,"Feb 26, 1980 (42 years)","Toronto, Ontario",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1432/zubin-surkari
+Usman Limbada,Canada,"Oct 02, 1989 (33 years)",canada,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6475/usman-limbada
+Harvir Baidwan,Canada,"Jul 31, 1987 (35 years)","Chandigarh, India",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1419/harvir-baidwan
+Damodar Daesrat,Canada,"Jul 04, 1981 (41 years)","Cumberland, Berbice, Guyana",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8377/damodar-daesrat
+Raza-ur-Rehman,Canada,"Nov 05, 1985 (37 years)",Bulawayo,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8256/raza-ur-rehman
+Ashish Bagai,Canada,"Jan 26, 1982 (40 years)","Delhi, India",WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/676/ashish-bagai
+R A Bhatti,Canada,"Feb 18, 1990 (32 years)",Lahore,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8033/r-a-bhatti
+Hamza Tariq,Canada,"Jul 21, 1990 (32 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7675/hamza-tariq
+Darren Ramsammy,Canada,"Jun 23, 1992 (30 years)","Scarborough, Ontario",WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8379/darren-ramsammy
+Zeeshan Siddiqi,Canada,"Oct 26, 1976 (46 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8027/zeeshan-siddiqi
+Manny Aulakh,Canada,"Nov 17, 1991 (31 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8100/manny-aulakh
+Abzal Dean,Canada,"Feb 23, 1983 (39 years)","San Fernando, Trinidad",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1478/abzal-dean
+Parth Desai,Canada,"Dec 11, 1990 (31 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7674/parth-desai
+Nikhil Dutta,Canada,"Oct 13, 1994 (28 years)","Kuwait City, Kuwait",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9230/nikhil-dutta
+Jeremy Gordon,Canada,"Jan 20, 1987 (35 years)","Stanley Town, New Amsterdam, Guyana",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8378/jeremy-gordon
+Kenneth Kamyuka,Canada,"Dec 05, 1981 (41 years)","Jinga, Uganda",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9549/kenneth-kamyuka
+Khurram Chohan,Canada,"Feb 22, 1980 (42 years)","Lahore, Punjab",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3285/khurram-chohan
+Henry Osinde,Canada,"Oct 17, 1978 (44 years)",Uganda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/686/henry-osinde
+Rayyan Pathan,Canada,"Dec 06, 1991 (31 years)","Toronto, Ontario",Bowler,--,--,--,74,--,--,--,https://www.cricbuzz.com/profiles/9229/rayyan-pathan
+John Davison,Canada,"May 09, 1970 (52 years)","Campbell River, Vancouver Island, British Columbia",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/675/john-davison
+Zahid Hussain,Canada,"Dec 18, 1974 (47 years)",--,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8026/zahid-hussain
+Babar Hayat,Hong Kong,"Jan 05, 1992 (30 years)","Attock, Pakistan",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9979/babar-hayat
+Waqas Khan,Hong Kong,"Mar 10, 1999 (23 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10208/waqas-khan
+Kinchit Shah,Hong Kong,"Dec 09, 1995 (27 years)",Mumbai,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9981/kinchit-shah
+Aizaz Khan,Hong Kong,"Mar 21, 1993 (29 years)",Hong Kong,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9975/aizaz-khan
+Nizakat Khan,Hong Kong,"Jul 08, 1992 (30 years)","Attock, Punjab, Pakistan",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9980/nizakat-khan
+Tanwir Afzal,Hong Kong,"Jun 12, 1988 (34 years)","Gujrat, Punjab",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9982/tanwir-afzal
+Anshuman Rath,Hong Kong,"Nov 05, 1997 (25 years)",Hong Kong,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10035/anshuman-rath
+Jamie Atkinson,Hong Kong,"Aug 23, 1990 (32 years)",Hong Kong,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1378/jamie-atkinson
+Christopher Carter,Hong Kong,"Sep 09, 1997 (25 years)",Hong Kong,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10793/christopher-carter
+Shahid Wasif,Hong Kong,"May 15, 1997 (25 years)",Pakistan,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11479/shahid-wasif
+Ehsan Khan,Hong Kong,"Dec 27, 1984 (37 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11485/ehsan-khan
+Nadeem Ahmed,Hong Kong,"Sep 28, 1987 (35 years)",Bahawalpur,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1385/nadeem-ahmed
+Tanveer Ahmed,Hong Kong,"Sep 18, 1997 (25 years)",Pakistan,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11342/tanveer-ahmed
+Aijaz Ali,United States,"Jun 20, 1968 (54 years)","Karachi, Pakistan",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3374/aijaz-ali
+Rohan Alexander,United States,"Feb 20, 1973 (49 years)",Jamaica. W.I.,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3375/rohan-alexander
+Donovan Blake,United States,"Dec 04, 1961 (61 years)","Jamaica, W.I.",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3385/donovan-blake
+Jignesh Desai,United States,"Apr 18, 1974 (48 years)",USA,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3376/jignesh-desai
+Howard Johnson,United States,"Aug 16, 1964 (58 years)","Jamaica, W.I.",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3377/howard-johnson
+Mark Johnson,United States,"Oct 28, 1963 (59 years)",Jamaica,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3378/mark-johnson
+Clayton Lambert,United States,"Feb 10, 1962 (60 years)","Islington, West Bank, Berbice, British Guiana",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3379/clayton-lambert
+Steve Massiah,United States,"Jun 21, 1979 (43 years)","Georgetown, Guyana",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3380/steve-massiah
+Nasir Javed,United States,"Jun 21, 1966 (56 years)","Lahore, Punjab",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3386/nasir-javed
+Rashid,United States,"Apr 06, 1974 (48 years)","Gujranwala, Pakistan",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3381/rashid
+Tony Reid,United States,"Apr 09, 1962 (60 years)","Barbados, West Indies",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3382/tony-reid
+Leon Romero,United States,"Dec 29, 1974 (47 years)","New York, U.S.A.",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3383/leon-romero
+Richard Staple,United States,"Nov 25, 1969 (53 years)","Kingston, Jamaica",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3384/richard-staple
+Tom Cooper,Netherlands,"Nov 26, 1986 (36 years)","Wollongong, New South Wales",Batsman,1.87 m,--,75,--,--,--,--,https://www.cricbuzz.com/profiles/6708/tom-cooper
+Tom de Grooth,Netherlands,"May 14, 1979 (43 years)",The Hague,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1409/tom-de-grooth
+Wilfred Diepeveen,Netherlands,"Jun 18, 1985 (37 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7609/wilfred-diepeveen
+Tim Gruijters,Netherlands,"Aug 28, 1991 (31 years)",The Hague,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6477/tim-gruijters
+Alexei Kervezee,Netherlands,"Sep 11, 1989 (33 years)","Walvis Bay, Republic of South Africa",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/634/alexei-kervezee
+Neil Kruger,Netherlands,"Aug 15, 1981 (41 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7960/neil-kruger
+Stephan Myburgh,Netherlands,"Feb 28, 1984 (38 years)","Pretoria, Transvaal",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8073/stephan-myburgh
+Sikander Zulfiqar,Netherlands,"Mar 28, 1997 (25 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11330/sikander-zulfiqar
+Michael Swart,Netherlands,"Oct 01, 1982 (40 years)","Subiaco, Perth, Western Australia",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7962/michael-swart
+Peter Borren,Netherlands,"Aug 21, 1983 (39 years)","Christchurch, Canterbury",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/631/peter-borren
+Max ODowd,Netherlands,"Mar 04, 1994 (28 years)",Auckland,Batting Allrounder,--,--,91,42,--,--,--,https://www.cricbuzz.com/profiles/10424/max-odowd
+Vinoo Tewarie,Netherlands,"Sep 15, 1991 (31 years)",--,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7969/vinoo-tewarie
+Daan van Bunge,Netherlands,"Oct 19, 1982 (40 years)","Leidschendam, Voorburg",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/641/daan-van-bunge
+Ben Cooper,Netherlands,"Feb 10, 1992 (30 years)","Lismore, New South Wales",Bowling Allrounder,--,--,--,81,--,--,--,https://www.cricbuzz.com/profiles/9532/ben-cooper
+Tom Heggelman,Netherlands,"Jan 16, 1987 (35 years)",--,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7610/tom-heggelman
+Michael Rippon,Netherlands,"Sep 14, 1991 (31 years)","Cape Town, Cape Province",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8098/michael-rippon
+Pieter Seelaar,Netherlands,"Jul 02, 1987 (35 years)",Schiedam,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1412/pieter-seelaar
+Timm van der Gugten,Netherlands,"Feb 25, 1991 (31 years)","Hornsby, Upper North Shore, Sydney",Bowling Allrounder,1.87 m,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7801/timm-van-der-gugten
+Roelof van der Merwe,Netherlands,"Dec 31, 1984 (37 years)","Johannesburg, Transvaal",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1669/roelof-van-der-merwe
+Rahil Ahmed,Netherlands,"Jan 03, 1994 (28 years)",Amsterdam,WK-Batsman,1.71 m,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10423/rahil-ahmed
+Wesley Barresi,Netherlands,"May 03, 1984 (38 years)",Johannesburg,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6707/wesley-barresi
+Tobias Visee,Netherlands,"Jan 21, 1991 (31 years)",The Hague,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10429/tobias-visee
+Ahsan Malik,Netherlands,"Aug 29, 1989 (33 years)",Rotterdam,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7964/ahsan-malik
+Mudassar Bukhari,Netherlands,"Dec 26, 1983 (38 years)","Gujrat, Punjab, Pakistan",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1408/mudassar-bukhari
+Vivian Kingma,Netherlands,"Oct 23, 1994 (28 years)","The Hague, Netherlands",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9391/vivian-kingma
+Logan van Beek,Netherlands,"Sep 07, 1990 (32 years)","Christchurch, Canterbury",Bowler,--,--,--,--,--,99,--,https://www.cricbuzz.com/profiles/9983/logan-van-beek
+Paul van Meekeren,Netherlands,"Jan 15, 1993 (29 years)","Amsterdam, Netherlands",Bowler,--,--,--,--,--,--,67,https://www.cricbuzz.com/profiles/9357/paul-van-meekeren
+Thijs van Schelven,Netherlands,"Apr 03, 1989 (33 years)",The Hague,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10125/thijs-van-schelven
+Edgar Schiferli,Netherlands,"May 17, 1976 (46 years)",--,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/692/edgar-schiferli
+Eric Gouka,Netherlands,"Jan 29, 1970 (52 years)",Schiedam,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3298/eric-gouka
+Asghar Afghan,Afghanistan,"Dec 22, 1987 (34 years)","Kabul, Afghanistan",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3004/asghar-afghan
+Hashmatullah Shahidi,Afghanistan,"Nov 04, 1994 (28 years)",Logar,Batsman,--,88,51,--,--,--,--,https://www.cricbuzz.com/profiles/8277/hashmatullah-shahidi
+Hazratullah Zazai,Afghanistan,"Mar 23, 1998 (24 years)",Paktia,Batsman,--,--,--,27,--,--,--,https://www.cricbuzz.com/profiles/12068/hazratullah-zazai
+Najibullah Zadran,Afghanistan,"Feb 28, 1993 (29 years)",Logar,Batsman,--,--,41,37,--,--,--,https://www.cricbuzz.com/profiles/8375/najibullah-zadran
+Noor Ali Zadran,Afghanistan,"Jul 10, 1988 (34 years)","Khost, Afghanistan",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3010/noor-ali-zadran
+Rahmat Shah,Afghanistan,"Jul 06, 1993 (29 years)",Paktia,Batting Allrounder,--,98,26,--,--,--,--,https://www.cricbuzz.com/profiles/8571/rahmat-shah
+Samiullah Shinwari,Afghanistan,"Feb 03, 1987 (35 years)","Nangrahar, Afghanistan",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3011/samiullah-shinwari
+Gulbadin Naib,Afghanistan,"Mar 16, 1991 (31 years)","Logar, Afghanistan",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8030/gulbadin-naib
+Mohammad Nabi,Afghanistan,"Jan 01, 1985 (37 years)","Loger, Afghanistan",Bowling Allrounder,--,--,66,56,--,13,52,https://www.cricbuzz.com/profiles/3007/mohammad-nabi
+Rashid Khan,Afghanistan,"Sep 20, 1998 (24 years)",Nangarhar,Bowling Allrounder,--,--,--,--,37,6,2,https://www.cricbuzz.com/profiles/10738/rashid-khan
+Mohammad Shahzad,Afghanistan,"Jan 10, 1987 (35 years)","Nangarhar, Afghanistan",WK-Batsman,5ft 3in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3014/mohammad-shahzad
+Aftab Alam,Afghanistan,"Nov 30, 1992 (30 years)","Nangarhar, Afghanistan",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6476/aftab-alam
+Dawlat Zadran,Afghanistan,"Mar 19, 1988 (34 years)","Khost, Afghanistan",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8029/dawlat-zadran
+Hamid Hassan,Afghanistan,"Jun 01, 1987 (35 years)","Nengrakar, Afghanistan",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3001/hamid-hassan
+Mujeeb Ur Rahman,Afghanistan,"Mar 28, 2001 (21 years)",Khost,Bowler,--,--,--,--,--,11,8,https://www.cricbuzz.com/profiles/12071/mujeeb-ur-rahman
+Fakhar Zaman,Pakistan,"Apr 10, 1990 (32 years)","Mardan, North-West Frontier Province",Batsman,--,--,11,84,--,--,--,https://www.cricbuzz.com/profiles/10863/fakhar-zaman
+Imam-ul-Haq,Pakistan,"Dec 12, 1995 (26 years)","Lahore, Punjab",Batsman,--,38,2,--,--,--,--,https://www.cricbuzz.com/profiles/8364/imam-ul-haq
+Babar Azam,Pakistan,"Oct 15, 1994 (28 years)","Lahore, Punjab",Batsman,--,3,1,4,--,--,--,https://www.cricbuzz.com/profiles/8359/babar-azam
+Asif Ali,Pakistan,"Oct 01, 1991 (31 years)","Faisalabad, Punjab",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9565/asif-ali
+Haris Sohail,Pakistan,"Jan 09, 1989 (33 years)","Sialkot, Punjab",Batting Allrounder,--,--,42,--,93,--,--,https://www.cricbuzz.com/profiles/8299/haris-sohail
+Mohammad Hafeez,Pakistan,"Oct 17, 1980 (42 years)","Sargodha, Punjab",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/360/mohammad-hafeez
+Shoaib Malik,Pakistan,"Feb 01, 1982 (40 years)","Sialkot, Punjab",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/33/shoaib-malik
+Shadab Khan,Pakistan,"Oct 04, 1998 (24 years)",Mianwali,Bowling Allrounder,--,--,--,--,--,31,18,https://www.cricbuzz.com/profiles/11186/shadab-khan
+Imad Wasim,Pakistan,"Dec 18, 1988 (33 years)","Swansea, Glamorgan, Wales",Bowling Allrounder,--,--,70,--,--,64,--,https://www.cricbuzz.com/profiles/10408/imad-wasim
+Sarfaraz Ahmed,Pakistan,"May 22, 1987 (35 years)","Karachi, Sind",WK-Batsman,--,--,78,--,--,--,--,https://www.cricbuzz.com/profiles/881/sarfaraz-ahmed
+Wahab Riaz,Pakistan,"Jun 28, 1985 (37 years)","Lahore, Punjab",Bowler,--,--,--,--,--,86,--,https://www.cricbuzz.com/profiles/1051/wahab-riaz
+Shaheen Afridi,Pakistan,"Apr 06, 2000 (22 years)",Khyber Agency,Bowler,--,--,--,--,5,5,17,https://www.cricbuzz.com/profiles/12160/shaheen-afridi
+Hasan Ali,Pakistan,"Jul 02, 1994 (28 years)","Mandi Bahauddin, Punjab",Bowler,--,--,--,--,18,67,--,https://www.cricbuzz.com/profiles/11320/hasan-ali
+Mohammad Hasnain,Pakistan,"Apr 05, 2000 (22 years)","Hyderabad, Pakistan",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/14248/mohammad-hasnain
+Mohammad Amir,Pakistan,"Apr 13, 1992 (30 years)","Gujjar Khan, Punjab",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1917/mohammad-amir
+Lahiru Thirimanne,Sri Lanka,"Aug 09, 1989 (33 years)",Moratuwa,Batsman,--,83,--,--,--,--,--,https://www.cricbuzz.com/profiles/6243/lahiru-thirimanne
+Dimuth Karunaratne,Sri Lanka,"Apr 21, 1988 (34 years)",Colombo,Batsman,6 ft 0 in,8,--,--,--,--,--,https://www.cricbuzz.com/profiles/7952/dimuth-karunaratne
+Avishka Fernando,Sri Lanka,"Apr 05, 1998 (24 years)",Wadduwa,Batsman,--,--,54,--,--,--,--,https://www.cricbuzz.com/profiles/10939/avishka-fernando
+Angelo Mathews,Sri Lanka,"Jun 02, 1987 (35 years)",Colombo,Batting Allrounder,--,22,67,--,--,--,--,https://www.cricbuzz.com/profiles/1629/angelo-mathews
+Dhananjaya de Silva,Sri Lanka,"Sep 06, 1991 (31 years)",Colombo,Batting Allrounder,5 ft 8 in,43,73,91,86,54,--,https://www.cricbuzz.com/profiles/7872/dhananjaya-de-silva
+Milinda Siriwardana,Sri Lanka,"Dec 04, 1985 (37 years)",Nagoda,Batting Allrounder,5 ft 11 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7891/milinda-siriwardana
+Thisara Perera,Sri Lanka,"Apr 03, 1989 (33 years)",Colombo,Bowling Allrounder,6 ft 1 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/2281/thisara-perera
+Isuru Udana,Sri Lanka,"Feb 17, 1988 (34 years)",Balangoda,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1920/isuru-udana
+Jeevan Mendis,Sri Lanka,"Jan 15, 1983 (39 years)",--,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6470/jeevan-mendis
+Kusal Perera,Sri Lanka,"Aug 17, 1990 (32 years)",Kalubowila,WK-Batsman,--,76,61,--,--,--,--,https://www.cricbuzz.com/profiles/8116/kusal-perera
+Kusal Mendis,Sri Lanka,"Feb 02, 1995 (27 years)",Moratuwa,WK-Batsman,--,54,46,46,--,--,--,https://www.cricbuzz.com/profiles/9494/kusal-mendis
+Suranga Lakmal,Sri Lanka,"Mar 10, 1987 (35 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1785/suranga-lakmal
+Lasith Malinga,Sri Lanka,"Aug 28, 1983 (39 years)",Galle,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/111/lasith-malinga
+Jeffrey Vandersay,Sri Lanka,"Feb 05, 1990 (32 years)",Wattala,Bowler,5 ft 7 in,--,--,--,--,90,--,https://www.cricbuzz.com/profiles/10469/jeffrey-vandersay
+Nuwan Pradeep,Sri Lanka,"Oct 19, 1986 (36 years)",Negombo,Bowler,--,--,--,--,--,82,--,https://www.cricbuzz.com/profiles/6730/nuwan-pradeep
+Eoin Morgan,England,"Sep 10, 1986 (36 years)",Dublin,Batsman,5 ft 9 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/624/eoin-morgan
+Joe Root,England,"Dec 30, 1990 (31 years)","Sheffield, Yorkshire",Batsman,--,4,13,--,88,--,--,https://www.cricbuzz.com/profiles/8019/joe-root
+Jason Roy,England,"Jul 21, 1990 (32 years)","Durban, South Africa",Batsman,--,--,19,49,--,--,--,https://www.cricbuzz.com/profiles/6534/jason-roy
+Liam Livingstone,England,"Aug 04, 1993 (29 years)","Barrow-in-Furness, Cumberland",Batsman,--,--,--,88,--,--,--,https://www.cricbuzz.com/profiles/10045/liam-livingstone
+Dawid Malan,England,"Sep 03, 1987 (35 years)","Roehampton, England",Batsman,6 ft 0 in,93,99,6,--,--,--,https://www.cricbuzz.com/profiles/6660/dawid-malan
+Moeen Ali,England,"Jun 18, 1987 (35 years)",Birmingham,Batting Allrounder,--,--,--,45,--,78,--,https://www.cricbuzz.com/profiles/6692/moeen-ali
+Ben Stokes,England,"Jun 04, 1991 (31 years)","Canterbury, New Zealand",Batting Allrounder,--,25,--,--,36,--,--,https://www.cricbuzz.com/profiles/6557/ben-stokes
+Chris Woakes,England,"Mar 02, 1989 (33 years)","Birmingham, Warwickshire",Bowling Allrounder,--,91,--,--,40,12,28,https://www.cricbuzz.com/profiles/6670/chris-woakes
+Tom Curran,England,"Mar 12, 1995 (27 years)","Cape Town, Cape Province",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9522/tom-curran
+Lewis Gregory,England,"May 24, 1992 (30 years)",Plymouth,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7854/lewis-gregory
+Sam Curran,England,"Jun 03, 1998 (24 years)",Northampton,Bowling Allrounder,--,--,--,--,71,--,5,https://www.cricbuzz.com/profiles/10420/sam-curran
+Jonny Bairstow,England,"Sep 26, 1989 (33 years)","Bradford, Yorkshire",WK-Batsman,--,12,7,64,--,--,--,https://www.cricbuzz.com/profiles/6507/jonny-bairstow
+Jos Buttler,England,"Sep 08, 1990 (32 years)","Taunton, Somerset",WK-Batsman,--,65,31,12,--,--,--,https://www.cricbuzz.com/profiles/2258/jos-buttler
+Sam Billings,England,"Jun 15, 1991 (31 years)","Pembury, Kent",WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7990/sam-billings
+Adil Rashid,England,"Feb 17, 1988 (34 years)","Bradford, Yorkshire",Bowler,5 ft 8 in,--,--,--,--,41,3,https://www.cricbuzz.com/profiles/1742/adil-rashid
+Mark Wood,England,"Jan 11, 1990 (32 years)","Ashington, Northumberland",Bowler,--,--,--,--,42,37,27,https://www.cricbuzz.com/profiles/8383/mark-wood
+Jofra Archer,England,"Apr 01, 1995 (27 years)","Bridgetown, Barbados",Bowler,--,--,--,--,66,--,--,https://www.cricbuzz.com/profiles/11540/jofra-archer
+Olly Stone,England,"Oct 09, 1993 (29 years)","Norwich, Norfolk",Bowler,--,--,--,--,85,--,--,https://www.cricbuzz.com/profiles/8022/olly-stone
+Reece Topley,England,"Feb 21, 1994 (28 years)","Ipswich, Suffolk",Bowler,6 ft 7 in,--,--,--,--,73,23,https://www.cricbuzz.com/profiles/8349/reece-topley
+Chris Jordan,England,"Oct 04, 1988 (34 years)",Barbados,Bowler,6 ft 2 in,--,--,--,--,--,39,https://www.cricbuzz.com/profiles/6532/chris-jordan
+Faf du Plessis,South Africa,"Jul 13, 1984 (38 years)",Pretoria,Batsman,5 feet 11 inches,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7825/faf-du-plessis
+David Miller,South Africa,"Jun 10, 1989 (33 years)","Pietermaritzburg, Natal",Batsman,--,--,21,31,--,--,--,https://www.cricbuzz.com/profiles/6349/david-miller
+Aiden Markram,South Africa,"Oct 04, 1994 (28 years)",Centurion,Batsman,--,53,55,5,--,--,--,https://www.cricbuzz.com/profiles/9582/aiden-markram
+Rassie van der Dussen,South Africa,"Feb 07, 1989 (33 years)","Pretoria, Transvaal",Batsman,--,48,3,23,--,--,--,https://www.cricbuzz.com/profiles/9554/rassie-van-der-dussen
+Jean-Paul Duminy,South Africa,"Apr 14, 1984 (38 years)","Strandfontein, Cape Town, Cape Province",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/211/jean-paul-duminy
+Andile Phehlukwayo,South Africa,"Mar 03, 1996 (26 years)",Durban,Bowling Allrounder,--,--,--,--,--,72,--,https://www.cricbuzz.com/profiles/9601/andile-phehlukwayo
+Dwaine Pretorius,South Africa,"Mar 29, 1989 (33 years)",Randfontein,Bowling Allrounder,--,--,--,--,--,51,38,https://www.cricbuzz.com/profiles/8651/dwaine-pretorius
+Chris Morris,South Africa,"Apr 30, 1987 (35 years)","Pretoria, Transvaal",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8333/chris-morris
+Quinton de Kock,South Africa,"Dec 17, 1992 (29 years)","Johannesburg, Gauteng",WK-Batsman,--,--,4,15,--,--,--,https://www.cricbuzz.com/profiles/8520/quinton-de-kock
+Imran Tahir,South Africa,"Mar 27, 1979 (43 years)","Lahore, Punjab",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6667/imran-tahir
+Kagiso Rabada,South Africa,"May 25, 1995 (27 years)",Johannesburg,Bowler,--,--,--,--,6,15,42,https://www.cricbuzz.com/profiles/9585/kagiso-rabada
+Lungi Ngidi,South Africa,"Mar 29, 1996 (26 years)","Durban, Natal",Bowler,--,--,--,--,27,20,33,https://www.cricbuzz.com/profiles/9603/lungi-ngidi
+Tabraiz Shamsi,South Africa,"Feb 18, 1990 (32 years)","Johannesburg, Gauteng",Bowler,--,--,--,--,--,32,6,https://www.cricbuzz.com/profiles/10173/tabraiz-shamsi
+Beuran Hendricks,South Africa,"Jun 08, 1990 (32 years)","Louis Leipoldt Hospital, Bellville, Cape Town",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9490/beuran-hendricks
+Martin Guptill,New Zealand,"Sep 30, 1986 (36 years)",Auckland,Batsman,--,--,24,24,--,--,--,https://www.cricbuzz.com/profiles/1457/martin-guptill
+Ross Taylor,New Zealand,"Mar 08, 1984 (38 years)","Lower Hutt, Wellington",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/521/ross-taylor
+Kane Williamson,New Zealand,"Aug 08, 1990 (32 years)",Tauranga,Batsman,--,6,8,35,--,--,--,https://www.cricbuzz.com/profiles/6326/kane-williamson
+Henry Nicholls,New Zealand,"Nov 15, 1991 (31 years)",Christchurch,Batsman,--,30,57,--,--,--,--,https://www.cricbuzz.com/profiles/10694/henry-nicholls
+James Neesham,New Zealand,"Sep 17, 1990 (32 years)",Auckland,Batting Allrounder,--,--,84,--,--,--,--,https://www.cricbuzz.com/profiles/8983/james-neesham
+Colin de Grandhomme,New Zealand,"Jul 22, 1986 (36 years)",Harare,Batting Allrounder,--,34,93,--,56,60,--,https://www.cricbuzz.com/profiles/8081/colin-de-grandhomme
+Colin Munro,New Zealand,"Mar 11, 1987 (35 years)",Durban,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8085/colin-munro
+Mitchell Santner,New Zealand,"Feb 05, 1992 (30 years)",Hamilton,Bowling Allrounder,--,--,83,--,91,22,12,https://www.cricbuzz.com/profiles/10100/mitchell-santner
+Tom Latham,New Zealand,"Apr 02, 1992 (30 years)","Christchurch, Canterbury",WK-Batsman,--,27,16,--,--,--,--,https://www.cricbuzz.com/profiles/8216/tom-latham
+Tom Blundell,New Zealand,"Sep 01, 1990 (32 years)",Wellington,WK-Batsman,--,21,--,--,--,--,--,https://www.cricbuzz.com/profiles/10717/tom-blundell
+Trent Boult,New Zealand,"Jul 22, 1989 (33 years)",Rotorua,Bowler,--,--,--,--,11,1,19,https://www.cricbuzz.com/profiles/8117/trent-boult
+Matt Henry,New Zealand,"Dec 14, 1991 (30 years)","Christchurch, Canterbury",Bowler,--,--,--,--,47,4,--,https://www.cricbuzz.com/profiles/9067/matt-henry
+Tim Southee,New Zealand,"Dec 11, 1988 (33 years)","Whangarei, Northland",Bowler,--,--,--,--,16,29,14,https://www.cricbuzz.com/profiles/1057/tim-southee
+Ish Sodhi,New Zealand,"Oct 31, 1992 (30 years)","Ludhiana, India",Bowler,--,--,--,--,--,69,24,https://www.cricbuzz.com/profiles/8561/ish-sodhi
+Lockie Ferguson,New Zealand,"Jun 13, 1991 (31 years)",Auckland,Bowler,--,--,--,--,--,33,47,https://www.cricbuzz.com/profiles/10692/lockie-ferguson
+Naresh Bahadur Budayair,Nepal,"Oct 15, 1991 (31 years)",Kanchanpur,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9962/naresh-bahadur-budayair
+Rajesh Pulami,Nepal,"Aug 27, 1992 (30 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10204/rajesh-pulami
+Gyanendra Malla,Nepal,"Sep 16, 1990 (32 years)",Nepal,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9966/gyanendra-malla
+Anil Mandal,Nepal,"Feb 05, 1991 (31 years)","Janakpur, Nepal",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10205/anil-mandal
+Sharad Vesawkar,Nepal,"Oct 06, 1988 (34 years)",United Arab Emirates,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9971/sharad-vesawkar
+Paras Khadka,Nepal,"Oct 24, 1987 (35 years)",Nepal,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9958/paras-khadka
+Amrit Bhattarai,Nepal,"Dec 30, 1990 (31 years)",Nepal,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9985/amrit-bhattarai
+Shakti Gauchan,Nepal,"Apr 22, 1984 (38 years)","Rupandehi, Nepal",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9963/shakti-gauchan
+Avinash Karn,Nepal,"Feb 04, 1995 (27 years)",--,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9964/avinash-karn
+Basant Regmi,Nepal,"Apr 06, 1986 (36 years)",Bhairahawa,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9968/basant-regmi
+Sagar Pun,Nepal,"Mar 01, 1993 (29 years)",--,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9969/sagar-pun
+Pradeep Airee,Nepal,"Sep 01, 1992 (30 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9959/pradeep-airee
+Binod Bhandari,Nepal,"Jan 25, 1990 (32 years)",Kanchanpur,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9961/binod-bhandari
+Subash Khakurel,Nepal,"Apr 07, 1993 (29 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9965/subash-khakurel
+Karan KC,Nepal,"Oct 10, 1991 (31 years)","Sigana V.D.C, Baglung",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10203/karan-kc
+Jitendra Mukhiya,Nepal,"Nov 22, 1992 (30 years)",Nepal,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9967/jitendra-mukhiya
+Sompal Kami,Nepal,"Feb 02, 1996 (26 years)",Gulmi,Bowler,--,--,--,--,--,100,--,https://www.cricbuzz.com/profiles/9970/sompal-kami
+Riaan Walters,Namibia,"Aug 10, 1980 (42 years)",Namibia,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7693/riaan-walters
+Sarel Burger,Namibia,"Feb 13, 1983 (39 years)",Windhoek,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7706/sarel-burger
+Gerrie Snyman,Namibia,"Apr 30, 1981 (41 years)",Windhoek,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7701/gerrie-snyman
+Stefan Swanepoel,Namibia,"Dec 02, 1981 (41 years)",Namibia,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7694/stefan-swanepoel
+Jan-Berrie Burger,Namibia,"Aug 25, 1981 (41 years)","Newcastle, South Africa",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7695/jan-berrie-burger
+Burton van Rooi,Namibia,"Jul 09, 1982 (40 years)",Namibia,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7707/burton-van-rooi
+Louis Burger,Namibia,"Mar 12, 1978 (44 years)",Namibia,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7698/louis-burger
+Morne Karg,Namibia,"Jul 12, 1977 (45 years)",Windhoek,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7700/morne-karg
+Danie Keulder,Namibia,"Aug 02, 1973 (49 years)",Namibia,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7696/danie-keulder
+Bjorn Kotze,Namibia,"Dec 11, 1978 (43 years)",Windhoek,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7703/bjorn-kotze
+Deon Kotze,Namibia,"Sep 12, 1973 (49 years)",Windhoek,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7699/deon-kotze
+Lennie Louw,Namibia,"Jun 19, 1959 (63 years)","Barkly West, Cape Province, South Africa",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7702/lennie-louw
+Melt van Schoor,Namibia,"Dec 08, 1967 (55 years)","Mowbray, Cape Town, Cape Province, South Africa",--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7704/melt-van-schoor
+Rudi van Vuuren,Namibia,"Sep 20, 1972 (50 years)",Windhoek,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7705/rudi-van-vuuren
+Ali Bushahri,Kuwait,"Oct 17, 1996 (26 years)",Kuwait,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10138/ali-bushahri
+Alkandari Mohammad,Kuwait,"Mar 28, 1994 (28 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10141/alkandari-mohammad
+Alnadi Faleh,Kuwait,"Oct 07, 1984 (38 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10142/alnadi-faleh
+Bastaki Abdullah,Kuwait,"Mar 02, 1990 (32 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10145/bastaki-abdullah
+Eissa Jassim,Kuwait,"Mar 29, 1985 (37 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10149/eissa-jassim
+Salem Mishary,Kuwait,"Jul 24, 1989 (33 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10150/salem-mishary
+Bastaki Mahmoud,Kuwait,"May 05, 1956 (66 years)",--,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10147/bastaki-mahmoud
+Abdulrahman Dashti,Kuwait,"Apr 07, 1984 (38 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10136/abdulrahman-dashti
+Alkandari Abdulrahman,Kuwait,"Dec 19, 1988 (33 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10140/alkandari-abdulrahman
+Alotaibi Mohammed,Kuwait,"Mar 23, 1984 (38 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10143/alotaibi-mohammed
+Bastaki Fahad,Kuwait,"Mar 07, 1991 (31 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10146/bastaki-fahad
+Ebrahim Aldhabyan,Kuwait,--,--,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10137/ebrahim-aldhabyan
+Ali Zainal,Kuwait,--,--,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10139/ali-zainal
+Beidas Tareq,Kuwait,"May 12, 1975 (47 years)",--,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10148/beidas-tareq
+Yousif Alzaid,Kuwait,--,--,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10151/yousif-alzaid
+Mohammad Usman,United Arab Emirates,"Aug 29, 1993 (29 years)",Lahore,Batsman,--,--,--,97,--,--,--,https://www.cricbuzz.com/profiles/10869/mohammad-usman
+Shaiman Anwar,United Arab Emirates,"Mar 15, 1979 (43 years)","Sialkot, Punjab",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9837/shaiman-anwar
+Chundangapoyil Rizwan,United Arab Emirates,"Apr 19, 1988 (34 years)","Tellicherry, Kerala",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/14554/chundangapoyil-rizwan
+Chirag Suri,United Arab Emirates,"Feb 18, 1995 (27 years)",--,Batsman,--,--,--,94,--,--,--,https://www.cricbuzz.com/profiles/9829/chirag-suri
+Ashfaq Ahmed,United Arab Emirates,"Mar 26, 1985 (37 years)",--,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/13278/ashfaq-ahmed
+Mohammad Boota,United Arab Emirates,"Jan 05, 1983 (39 years)","Sialkot, Pakistan",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/13279/mohammad-boota
+Fayyaz Ahmed,United Arab Emirates,"May 12, 1983 (39 years)","Gujrat, Punjab",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10038/fayyaz-ahmed
+Rohan Mustafa,United Arab Emirates,"Oct 07, 1988 (34 years)",Kohat,Batting Allrounder,--,--,--,--,--,48,88,https://www.cricbuzz.com/profiles/9835/rohan-mustafa
+Ahmed Raza,United Arab Emirates,"Oct 10, 1988 (34 years)",Sharjah,Bowling Allrounder,--,--,--,--,--,39,93,https://www.cricbuzz.com/profiles/9828/ahmed-raza
+Mohammad Naveed,United Arab Emirates,"Jun 03, 1987 (35 years)",--,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9832/mohammad-naveed
+Ghulam Shabber,United Arab Emirates,"Dec 12, 1985 (36 years)",Jhang,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/11817/ghulam-shabber
+Imran Haider,United Arab Emirates,"Oct 31, 1987 (35 years)",Lahore,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10874/imran-haider
+Qadeer Ahmed,United Arab Emirates,"Nov 15, 1985 (37 years)","Attock, Pakistan",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10814/qadeer-ahmed
+Sultan Ahmed,United Arab Emirates,"Oct 11, 1989 (33 years)","Gujranwala, Punjab",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/12746/sultan-ahmed
+Amir Hayat,United Arab Emirates,"Aug 28, 1982 (40 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/13269/amir-hayat
+Zahoor Khan,United Arab Emirates,"May 25, 1989 (33 years)","Faisalabad, Punjab",Bowler,--,--,--,--,--,75,60,https://www.cricbuzz.com/profiles/12247/zahoor-khan
+Alex Obanda,Kenya,"Dec 25, 1987 (34 years)","Nairobi, Kenya",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/704/alex-obanda
+Duncan Allan,Kenya,"Oct 14, 1991 (31 years)",--,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8075/duncan-allan
+Collins Obuya,Kenya,"Jul 27, 1981 (41 years)",Nairobi,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/550/collins-obuya
+Seren Waters,Kenya,"Apr 11, 1990 (32 years)","Nairobi, Kenya",Batting Allrounder,6 ft 0 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1592/seren-waters
+Ragheb Aga,Kenya,"Jul 10, 1984 (38 years)",Kenya,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/188/ragheb-aga
+Nelson Odhiambo,Kenya,"Mar 21, 1989 (33 years)","Nairobi, Kenya",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/6478/nelson-odhiambo
+Nehemiah Odhiambo,Kenya,"Aug 07, 1983 (39 years)","Nairobi, Kenya",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/552/nehemiah-odhiambo
+Emmanuel Bundi,Kenya,"Sep 08, 1993 (29 years)","Kakamega, Kenya",Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9356/emmanuel-bundi
+Irfan Karim,Kenya,"Sep 25, 1992 (30 years)",--,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8077/irfan-karim
+Morris Ouma,Kenya,"Nov 08, 1982 (40 years)",Kiambli,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/194/morris-ouma
+Rakep Patel,Kenya,"Jul 12, 1989 (33 years)","Nairobi, Kenya",WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1434/rakep-patel
+Ibrahim Akello,Kenya,"Mar 31, 1985 (37 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8074/ibrahim-akello
+Alfred Luseno,Kenya,"Dec 20, 1981 (40 years)",Kakemaga,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/824/alfred-luseno
+James Ngoche,Kenya,"Jan 29, 1988 (34 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7727/james-ngoche
+Shem Ngoche,Kenya,"Jun 06, 1989 (33 years)",Kenya,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7708/shem-ngoche
+Lucas Oluoch,Kenya,"Aug 07, 1991 (31 years)","Nairobi, Kenya",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8078/lucas-oluoch
+Elijah Otieno,Kenya,"Jan 03, 1988 (34 years)","Nairobi, Kenya",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/791/elijah-otieno
+Hiren Varaiya,Kenya,"Apr 09, 1984 (38 years)",Kenya,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/553/hiren-varaiya
+Dominic Wesonga,Kenya,"Jul 16, 1988 (34 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/7888/dominic-wesonga
+Kyle Coetzer,Scotland,"Apr 14, 1984 (38 years)",Aberdeen,Batsman,5 ft 11 in,--,40,--,--,--,--,https://www.cricbuzz.com/profiles/1415/kyle-coetzer
+Dylan Budge,Scotland,"Sep 11, 1995 (27 years)","Leeds, Yorkshire",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/13738/dylan-budge
+Michael Jones,Scotland,"Jan 05, 1998 (24 years)","Ormskirk, Lancashire",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/13527/michael-jones
+George Munsey,Scotland,"Feb 21, 1993 (29 years)",Oxford,Batsman,--,--,48,22,--,--,--,https://www.cricbuzz.com/profiles/10103/george-munsey
+Richie Berrington,Scotland,"Apr 03, 1987 (35 years)","Pretoria, South Africa",Batting Allrounder,--,--,68,25,--,--,--,https://www.cricbuzz.com/profiles/1398/richie-berrington
+Calum MacLeod,Scotland,"Nov 15, 1988 (34 years)","Glasgow, Lanarkshire",Batting Allrounder,--,--,39,79,--,--,--,https://www.cricbuzz.com/profiles/1416/calum-macleod
+Michael Leask,Scotland,"Oct 29, 1990 (32 years)",Aberdeen,Batting Allrounder,--,--,90,--,--,87,--,https://www.cricbuzz.com/profiles/9383/michael-leask
+Alasdair Evans,Scotland,"Jan 12, 1989 (33 years)","Pembury, Kent",Bowling Allrounder,6 ft 5 in,--,--,--,--,--,89,https://www.cricbuzz.com/profiles/3053/alasdair-evans
+Tom Sole,Scotland,"Jun 21, 1996 (26 years)",Edinburgh,Bowling Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/12771/tom-sole
+Matthew Cross,Scotland,"Oct 15, 1992 (30 years)",Aberdeen,WK-Batsman,--,--,--,83,--,--,--,https://www.cricbuzz.com/profiles/9365/matthew-cross
+Craig Wallace,Scotland,"Jun 27, 1990 (32 years)","Dundee, Angus",WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/8255/craig-wallace
+Mark Watt,Scotland,"Jul 29, 1996 (26 years)","Eastern General Hospital, Edinburgh",Bowler,--,--,--,--,--,19,29,https://www.cricbuzz.com/profiles/9928/mark-watt
+Safyaan Sharif,Scotland,"May 24, 1991 (31 years)","Huddersfield, Yorkshire",Bowler,--,--,--,--,--,61,73,https://www.cricbuzz.com/profiles/7966/safyaan-sharif
+Chris Sole,Scotland,"Feb 27, 1994 (28 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9925/chris-sole
+Gavin Main,Scotland,"Feb 28, 1995 (27 years)",Lanark,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/9922/gavin-main
+Brad Wheal,Scotland,"Aug 28, 1996 (26 years)","Durban, KwaZulu-Natal",Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/10389/brad-wheal
+Delyone Borden,Bermuda,"Mar 04, 1985 (37 years)",Bermuda,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/662/delyone-borden
+James Celestine,Bermuda,"Oct 13, 1973 (49 years)",Grenada,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/861/james-celestine
+Fiqre Crockwell,Bermuda,"Jul 08, 1985 (37 years)",Bermuda,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3373/fiqre-crockwell
+Chris Foggo,Bermuda,"May 07, 1982 (40 years)","Hamilton, Bermuda",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1755/chris-foggo
+David Hemp,Bermuda,"Nov 08, 1970 (52 years)","Hamilton, Bermuda",Batsman,6 ft 1 in,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/664/david-hemp
+Kyle Hodsoll,Bermuda,"Nov 24, 1988 (34 years)",Bermuda,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/863/kyle-hodsoll
+Steven Outerbridge,Bermuda,"May 20, 1983 (39 years)","Paget, Bermuda",Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/670/steven-outerbridge
+Azeem Pitcher,Bermuda,"Jul 31, 1980 (42 years)",Trinidad,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/864/azeem-pitcher
+Tamauri Tucker,Bermuda,"Dec 10, 1988 (33 years)",Bermuda,Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/866/tamauri-tucker
+Malachi Jones,Bermuda,"Jun 26, 1989 (33 years)",Bermuda,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/666/malachi-jones
+Oliver Pitcher,Bermuda,"May 27, 1983 (39 years)","Paget, Bermuda",Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/671/oliver-pitcher
+Rodney Trott,Bermuda,"Sep 08, 1987 (35 years)",Bermuda,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/865/rodney-trott
+Janeiro Tucker,Bermuda,"Mar 15, 1975 (47 years)",Bermuda,Batting Allrounder,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/673/janeiro-tucker
+Jekon Edness,Bermuda,"Sep 13, 1983 (39 years)",Bermuda,WK-Batsman,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/862/jekon-edness
+Oronde Bascome,Bermuda,"Mar 08, 1988 (34 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1427/oronde-bascome
+Chris Douglas,Bermuda,"Nov 20, 1989 (33 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1428/chris-douglas
+Dennico Hollis,Bermuda,"Aug 17, 1988 (34 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1431/dennico-hollis
+Kevin Hurdle,Bermuda,"Dec 30, 1976 (45 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/665/kevin-hurdle
+Stefan Kelly,Bermuda,"Aug 24, 1988 (34 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/667/stefan-kelly
+Chris Lonsdale,Bermuda,"Sep 15, 1987 (35 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1762/chris-lonsdale
+George O Brien,Bermuda,"Sep 16, 1984 (38 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3343/george-o-brien
+Jacobi Robinson,Bermuda,"Dec 31, 1984 (37 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1775/jacobi-robinson
+McLaren Smith,Bermuda,"Aug 31, 1991 (31 years)",--,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1779/mclaren-smith
+Ryan Steede,Bermuda,"Sep 11, 1975 (47 years)",Bermuda,Bowler,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/1430/ryan-steede
+Glenn Blakeney,Bermuda,"Feb 22, 1973 (49 years)",Bermuda,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/3372/glenn-blakeney
+Irving Romaine,Bermuda,"Aug 08, 1972 (50 years)",Bermuda,--,--,--,--,--,--,--,--,https://www.cricbuzz.com/profiles/660/irving-romaine
