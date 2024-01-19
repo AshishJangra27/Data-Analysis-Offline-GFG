@@ -1,0 +1,84 @@
+Questions on SQL
+
+
+
+
+Q1. How do you insert a new record into a table?
+
+Q2. Explain the difference between WHERE and HAVING clauses.
+
+Q3. What is the primary key in a relational database?
+
+Q4. How can you update the values in a column in an existing table?
+
+Q5. What is the purpose of the GROUP BY clause in SQL?
+
+Q6. What is the difference between INNER JOIN and LEFT JOIN?
+
+Q7. Explain the purpose of the ORDER BY clause.
+
+Q8. Explain the purpose of the Window functions.
+
+Q9. What is the purpose of the DISTINCT keyword in a SELECT statement?
+
+Q10. Write a query to retrieve the total number of rows in a table.
+
+Q11. Explain the difference between UNION and UNION ALL in SQL.
+
+Q12. What is a subquery, and how is it different from a join?
+
+Q13. What is a foreign key, and how is it used in a database?
+
+Q14. Write a query to retrieve the top 5 records based on a specific column in descending order.
+
+Q15. Explain the purpose of the EXCEPT and INTERSECT operators in SQL?
+
+Q16. Explain the advantages and disadvantages of using views in a database.
+
+Q17. What are the different types of JOIN operations in SQL?
+
+Q18. How do you handle NULL values in SQL queries?
+
+Q19. How can you perform an UPDATE operation with a JOIN in SQL?
+
+Q20. Write a query to calculate a moving average over a specified window of time.
+
+Q21. Discuss the role of the COMMIT and ROLLBACK statements in SQL transactions.
+
+Q22. What is the purpose of the RANK() and DENSE_RANK() window functions?
+
+Q23. Explain the purpose of the BETWEEN operator in a SQL query.
+
+Q24. How can you find the maximum value in a column using a SQL query?
+
+Q25. Explain the difference between a UNION and a JOIN operation in SQL.
+
+Q26. Write a query to find duplicate records in a table.
+
+Q27. What is a database? 
+
+Q28. What is the difference between BETWEEN and IN operators in SQL? 
+
+Q29. Write down various types of relationships in SQL?
+
+Q30. What is the difference between TRUNCATE and DROP statements?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
