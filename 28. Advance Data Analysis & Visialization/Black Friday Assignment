@@ -1,0 +1,783 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Assumption\n",
+        "\n",
+        "- Who is more likely to spend more on Black Friday i.e Man/Woman, Married/Unmarried, What age group\n",
+        "- What type of products people purchase more i.e Category 1, 2 or 3\n",
+        "- Who spent more i.e Old/New customer\n",
+        "- From which area people spend more\n",
+        "- From what type of occupation people spend more"
+      ],
+      "metadata": {
+        "id": "L9Diw-i_sccn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 421
+        },
+        "id": "YD3x1Edyp4_f",
+        "outputId": "85653af2-9982-4c33-a742-9d5f37156b1e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'Black-Friday-Sale-Data-Analysis'...\n",
+            "remote: Enumerating objects: 29, done.\u001b[K\n",
+            "remote: Counting objects: 100% (29/29), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (29/29), done.\u001b[K\n",
+            "remote: Total 29 (delta 6), reused 0 (delta 0), pack-reused 0\u001b[K\n",
+            "Receiving objects: 100% (29/29), 6.09 MiB | 3.47 MiB/s, done.\n",
+            "Resolving deltas: 100% (6/6), done.\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "   User_ID Product_ID Gender   Age  Occupation City_Category  \\\n",
+              "0  1000001  P00069042      F  0-17          10             A   \n",
+              "1  1000001  P00248942      F  0-17          10             A   \n",
+              "2  1000001  P00087842      F  0-17          10             A   \n",
+              "3  1000001  P00085442      F  0-17          10             A   \n",
+              "4  1000002  P00285442      M   55+          16             C   \n",
+              "\n",
+              "  Stay_In_Current_City_Years  Marital_Status  Product_Category_1  \\\n",
+              "0                          2               0                   3   \n",
+              "1                          2               0                   1   \n",
+              "2                          2               0                  12   \n",
+              "3                          2               0                  12   \n",
+              "4                         4+               0                   8   \n",
+              "\n",
+              "   Product_Category_2  Product_Category_3  Purchase  \n",
+              "0                 NaN                 NaN      8370  \n",
+              "1                 6.0                14.0     15200  \n",
+              "2                 NaN                 NaN      1422  \n",
+              "3                14.0                 NaN      1057  \n",
+              "4                 NaN                 NaN      7969  "
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-a9fdc2f5-e97f-4abb-bde1-d3abc7720055\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>User_ID</th>\n",
+              "      <th>Product_ID</th>\n",
+              "      <th>Gender</th>\n",
+              "      <th>Age</th>\n",
+              "      <th>Occupation</th>\n",
+              "      <th>City_Category</th>\n",
+              "      <th>Stay_In_Current_City_Years</th>\n",
+              "      <th>Marital_Status</th>\n",
+              "      <th>Product_Category_1</th>\n",
+              "      <th>Product_Category_2</th>\n",
+              "      <th>Product_Category_3</th>\n",
+              "      <th>Purchase</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>1000001</td>\n",
+              "      <td>P00069042</td>\n",
+              "      <td>F</td>\n",
+              "      <td>0-17</td>\n",
+              "      <td>10</td>\n",
+              "      <td>A</td>\n",
+              "      <td>2</td>\n",
+              "      <td>0</td>\n",
+              "      <td>3</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>8370</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>1000001</td>\n",
+              "      <td>P00248942</td>\n",
+              "      <td>F</td>\n",
+              "      <td>0-17</td>\n",
+              "      <td>10</td>\n",
+              "      <td>A</td>\n",
+              "      <td>2</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>6.0</td>\n",
+              "      <td>14.0</td>\n",
+              "      <td>15200</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>1000001</td>\n",
+              "      <td>P00087842</td>\n",
+              "      <td>F</td>\n",
+              "      <td>0-17</td>\n",
+              "      <td>10</td>\n",
+              "      <td>A</td>\n",
+              "      <td>2</td>\n",
+              "      <td>0</td>\n",
+              "      <td>12</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>1422</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>1000001</td>\n",
+              "      <td>P00085442</td>\n",
+              "      <td>F</td>\n",
+              "      <td>0-17</td>\n",
+              "      <td>10</td>\n",
+              "      <td>A</td>\n",
+              "      <td>2</td>\n",
+              "      <td>0</td>\n",
+              "      <td>12</td>\n",
+              "      <td>14.0</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>1057</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>1000002</td>\n",
+              "      <td>P00285442</td>\n",
+              "      <td>M</td>\n",
+              "      <td>55+</td>\n",
+              "      <td>16</td>\n",
+              "      <td>C</td>\n",
+              "      <td>4+</td>\n",
+              "      <td>0</td>\n",
+              "      <td>8</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>7969</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-a9fdc2f5-e97f-4abb-bde1-d3abc7720055')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-a9fdc2f5-e97f-4abb-bde1-d3abc7720055 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-a9fdc2f5-e97f-4abb-bde1-d3abc7720055');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "<div id=\"df-cec85e0f-20cd-44c2-991b-86e075df007f\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-cec85e0f-20cd-44c2-991b-86e075df007f')\"\n",
+              "            title=\"Suggest charts\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\"viewBox=\"0 0 24 24\"\n",
+              "     width=\"24px\">\n",
+              "    <g>\n",
+              "        <path d=\"M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z\"/>\n",
+              "    </g>\n",
+              "</svg>\n",
+              "  </button>\n",
+              "\n",
+              "<style>\n",
+              "  .colab-df-quickchart {\n",
+              "      --bg-color: #E8F0FE;\n",
+              "      --fill-color: #1967D2;\n",
+              "      --hover-bg-color: #E2EBFA;\n",
+              "      --hover-fill-color: #174EA6;\n",
+              "      --disabled-fill-color: #AAA;\n",
+              "      --disabled-bg-color: #DDD;\n",
+              "  }\n",
+              "\n",
+              "  [theme=dark] .colab-df-quickchart {\n",
+              "      --bg-color: #3B4455;\n",
+              "      --fill-color: #D2E3FC;\n",
+              "      --hover-bg-color: #434B5C;\n",
+              "      --hover-fill-color: #FFFFFF;\n",
+              "      --disabled-bg-color: #3B4455;\n",
+              "      --disabled-fill-color: #666;\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-quickchart {\n",
+              "    background-color: var(--bg-color);\n",
+              "    border: none;\n",
+              "    border-radius: 50%;\n",
+              "    cursor: pointer;\n",
+              "    display: none;\n",
+              "    fill: var(--fill-color);\n",
+              "    height: 32px;\n",
+              "    padding: 0;\n",
+              "    width: 32px;\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-quickchart:hover {\n",
+              "    background-color: var(--hover-bg-color);\n",
+              "    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "    fill: var(--button-hover-fill-color);\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-quickchart-complete:disabled,\n",
+              "  .colab-df-quickchart-complete:disabled:hover {\n",
+              "    background-color: var(--disabled-bg-color);\n",
+              "    fill: var(--disabled-fill-color);\n",
+              "    box-shadow: none;\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-spinner {\n",
+              "    border: 2px solid var(--fill-color);\n",
+              "    border-color: transparent;\n",
+              "    border-bottom-color: var(--fill-color);\n",
+              "    animation:\n",
+              "      spin 1s steps(1) infinite;\n",
+              "  }\n",
+              "\n",
+              "  @keyframes spin {\n",
+              "    0% {\n",
+              "      border-color: transparent;\n",
+              "      border-bottom-color: var(--fill-color);\n",
+              "      border-left-color: var(--fill-color);\n",
+              "    }\n",
+              "    20% {\n",
+              "      border-color: transparent;\n",
+              "      border-left-color: var(--fill-color);\n",
+              "      border-top-color: var(--fill-color);\n",
+              "    }\n",
+              "    30% {\n",
+              "      border-color: transparent;\n",
+              "      border-left-color: var(--fill-color);\n",
+              "      border-top-color: var(--fill-color);\n",
+              "      border-right-color: var(--fill-color);\n",
+              "    }\n",
+              "    40% {\n",
+              "      border-color: transparent;\n",
+              "      border-right-color: var(--fill-color);\n",
+              "      border-top-color: var(--fill-color);\n",
+              "    }\n",
+              "    60% {\n",
+              "      border-color: transparent;\n",
+              "      border-right-color: var(--fill-color);\n",
+              "    }\n",
+              "    80% {\n",
+              "      border-color: transparent;\n",
+              "      border-right-color: var(--fill-color);\n",
+              "      border-bottom-color: var(--fill-color);\n",
+              "    }\n",
+              "    90% {\n",
+              "      border-color: transparent;\n",
+              "      border-bottom-color: var(--fill-color);\n",
+              "    }\n",
+              "  }\n",
+              "</style>\n",
+              "\n",
+              "  <script>\n",
+              "    async function quickchart(key) {\n",
+              "      const quickchartButtonEl =\n",
+              "        document.querySelector('#' + key + ' button');\n",
+              "      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.\n",
+              "      quickchartButtonEl.classList.add('colab-df-spinner');\n",
+              "      try {\n",
+              "        const charts = await google.colab.kernel.invokeFunction(\n",
+              "            'suggestCharts', [key], {});\n",
+              "      } catch (error) {\n",
+              "        console.error('Error during call to suggestCharts:', error);\n",
+              "      }\n",
+              "      quickchartButtonEl.classList.remove('colab-df-spinner');\n",
+              "      quickchartButtonEl.classList.add('colab-df-quickchart-complete');\n",
+              "    }\n",
+              "    (() => {\n",
+              "      let quickchartButtonEl =\n",
+              "        document.querySelector('#df-cec85e0f-20cd-44c2-991b-86e075df007f button');\n",
+              "      quickchartButtonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "    })();\n",
+              "  </script>\n",
+              "</div>\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ],
+      "source": [
+        "!git clone https://github.com/AshishJangra27/Black-Friday-Sale-Data-Analysis/\n",
+        "\n",
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.read_csv('/content/Black-Friday-Sale-Data-Analysis/BlackFriday.csv')\n",
+        "df.head()"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### 1. Exploratory Data Analysis\n",
+        "##### 1.1) Checking null values"
+      ],
+      "metadata": {
+        "id": "p1PgyO2xr6fH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "GekQ5wxkwRvL"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 1.2) Dealing with null values"
+      ],
+      "metadata": {
+        "id": "yWdN-8cSTy7-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ItHuFjFysFIu"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 1.3) Checking categories in each column"
+      ],
+      "metadata": {
+        "id": "RTqz3dSOsFrT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Q9I17V0asJCF"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 1.4) Removing un-necessery columns"
+      ],
+      "metadata": {
+        "id": "3X49Dp3XsPnx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "S3mydLA3sXkm"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### 2. Data Analysis\n",
+        "##### 2.1) Analysing gender distribution"
+      ],
+      "metadata": {
+        "id": "srdEHx7OtRKT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "0VWCYtbytSrO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.2) Average Amount Spend per Product by Gender"
+      ],
+      "metadata": {
+        "id": "MEvPPaWhtjE5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "rsS81i86tkUl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.3) Analysing Product Distribution based on Age"
+      ],
+      "metadata": {
+        "id": "ZZ5oJk1Hto6F"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "hmAQTU33tqDV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.4) Analysing amount spend by age"
+      ],
+      "metadata": {
+        "id": "VfWlZCtNt-Ju"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "0wbUK6FIuAzj"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.5) Analysing average amount spend by age"
+      ],
+      "metadata": {
+        "id": "PEJQb_RWuKfj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "xHl-KLiuuJ7W"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.6) Analysing marital status"
+      ],
+      "metadata": {
+        "id": "0P0GZrjTuPjw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "O1tv2XcPuYZm"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.7) Analyse purchase by Age & Gender"
+      ],
+      "metadata": {
+        "id": "C37e0AGCupk3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "t30Elq5ZutHq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.8) Analyse purchase by Marital Status & Gender"
+      ],
+      "metadata": {
+        "id": "eHNy7lk2vJHp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "dFQB6jsQvNGG"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.9) Analyse purchase by City & Gender"
+      ],
+      "metadata": {
+        "id": "p9IqcC40vUaV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "PnZ1eXv4vWne"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.10) Total collection in each city?"
+      ],
+      "metadata": {
+        "id": "4BPOsaTivjjZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "HFDk0Y4yvpTt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.11) Average collection in each city?"
+      ],
+      "metadata": {
+        "id": "7wBOGR_dvs28"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "j156AR6kvu_8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.12) Analysing orders by City & Age"
+      ],
+      "metadata": {
+        "id": "5lnZXZ2AwCl1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "MZNcm84fwJgA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.13) Order distibution as per occupation"
+      ],
+      "metadata": {
+        "id": "1_PYVbzEwS21"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "1rBidTfSwZbb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.14) Order distibution as per occupation & marital status"
+      ],
+      "metadata": {
+        "id": "5mVjZVuSwcIe"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "eu2J_pKgweGZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.15) Combine Marital Status and Gender"
+      ],
+      "metadata": {
+        "id": "0YgPObbCwmep"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "IsbRr10mwrA3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##### 2.16) Order distribution as per marital,gender & product category"
+      ],
+      "metadata": {
+        "id": "lddOguJCwrfR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "LcI7uDwCwyiz"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
