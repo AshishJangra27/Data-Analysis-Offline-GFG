@@ -1,5 +1,8 @@
 # Data Analysis Offline - GFG Repository
 
+![Minimalistic Data Analysis Image](https://raw.githubusercontent.com/AshishJangra27/Data-Analysis-Offline-GFG/main/resourcess/img.png)
+
+
 ## Overview
 
 This repository contains resources and materials to help you master data analysis using various tools and techniques. Each folder corresponds to a specific topic or project.
