@@ -3,9 +3,3 @@ This repository is having all the reference files and codes used in data analysi
 
 https://colab.research.google.com/drive/1srClbXAUfEos9AcfPDNi1hb6iewHCG6L?usp=sharing
 
-# A
-## A
-### A
-#### A
-##### A
-###### A
