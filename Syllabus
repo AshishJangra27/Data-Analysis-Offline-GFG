@@ -1,0 +1,64 @@
+Excel
+
+- Find vs Search
+- TextJoin vs Concatenate
+- Conditional Formatting
+- Indexes & Index Matching
+- Rank
+- SUBSTITUTE vs REPLACE
+- Filter
+- Search on top 30 funciton on Excel & their uses
+- Pivot Tables & Charts
+- Projects
+
+SQL
+- DDL vs DML vs DCL vs TCL vs DQL
+- DROP vs Truncate
+- Transection
+- Limit vs Offset
+- GroupBy
+- Joins, types & uses
+- Subquery
+- Window Functions
+- Where vs Having
+- Partition By
+- Partition By vs GroupBy
+- Views
+- Temporary Table vs Views
+- Distinct vs Unique
+- CTEs
+- Funcitons vs Keywords
+- Union, Union All, Intersect, Except vs Joins
+- Procedure
+- Normalization
+- Different Datatypes in SQL
+- Partitioning
+- Indexing
+
+Python
+- Datatypes
+- Typecasting
+- Operators
+- Loops (for vs while)
+- Conditions
+- Data Structures
+- Lists
+- Dictionaries
+- Sets & Touples
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn/Plotly
+- Different ways to clean Null Value
+- Different ways to clean text
+
+Tableau/PowerBI
+- 
+
+
+
+
+
+
+
+
