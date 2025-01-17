@@ -1,0 +1,8 @@
+- Complate Data Analysis with Python (Recorded)
+- Data Visualization with Maptlotlib, Plotly, Seaborn
+- Project on Jobs Data
+- Revise SQL
+- Interview Qns
+- Practice Python Qns
+- Resume
+- PowerBI Desktop | Installed
