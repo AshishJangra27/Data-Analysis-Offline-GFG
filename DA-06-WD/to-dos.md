@@ -69,3 +69,8 @@ LLMs for Documentation
 - PowerBI
 
   
+
+Communication Skills
+Presentation Skills
+Resume
+LinkedIn & Github & Kaggle
