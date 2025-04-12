@@ -1,0 +1,22 @@
+data = {
+    1: {'name': 'Ashish', 'phone': 431432513, 'address': 'Noida', 'marks': {'hindi': 34, 'english': 53, 'maths': 53}},
+    2: {'name': 'Manish', 'phone': 431432513, 'address': 'Noida', 'marks': {'hindi': 30, 'english': 23, 'maths': 83}},
+    3: {'name': 'Mohan', 'phone': 431432513, 'address': 'Noida', 'marks': {'hindi': 43, 'english': 78, 'maths': 15}},
+    4: {'name': 'Sohan', 'phone': 9876543210, 'address': 'Delhi', 'marks': {'hindi': 78, 'english': 65, 'maths': 92}},
+    5: {'name': 'Rohan', 'phone': 8765432109, 'address': 'Gurugram', 'marks': {'hindi': 67, 'english': 89, 'maths': 76}},
+    6: {'name': 'Rahul', 'phone': 7654321098, 'address': 'Faridabad', 'marks': {'hindi': 56, 'english': 78, 'maths': 65}},
+    7: {'name': 'Rajesh', 'phone': 6543210987, 'address': 'Ghaziabad', 'marks': {'hindi': 45, 'english': 67, 'maths': 54}},
+    8: {'name': 'Rakesh', 'phone': 5432109876, 'address': 'Meerut', 'marks': {'hindi': 89, 'english': 90, 'maths': 87}},
+    9: {'name': 'Suresh', 'phone': 4321098765, 'address': 'Agra', 'marks': {'hindi': 78, 'english': 56, 'maths': 67}},
+    10: {'name': 'Mahesh', 'phone': 3210987654, 'address': 'Mathura', 'marks': {'hindi': 67, 'english': 45, 'maths': 56}},
+    11: {'name': 'Naresh', 'phone': 2109876543, 'address': 'Vrindavan', 'marks': {'hindi': 56, 'english': 34, 'maths': 45}},
+    12: {'name': 'Dinesh', 'phone': 1098765432, 'address': 'Aligarh', 'marks': {'hindi': 45, 'english': 23, 'maths': 34}},
+    13: {'name': 'Ramesh', 'phone': 987654321, 'address': 'Kanpur', 'marks': {'hindi': 34, 'english': 12, 'maths': 23}},
+    14: {'name': 'Kamlesh', 'phone': 876543210, 'address': 'Lucknow', 'marks': {'hindi': 23, 'english': 3, 'maths': 12}},
+    15: {'name': 'Vinesh', 'phone': 765432109, 'address': 'Varanasi', 'marks': {'hindi': 12, 'english': 43, 'maths': 3}},
+    16: {'name': 'Yogesh', 'phone': 654321098, 'address': 'Prayagraj', 'marks': {'hindi': 3, 'english': 54, 'maths': 12}},
+    17: {'name': 'Mukesh', 'phone': 543210987, 'address': 'Gorakhpur', 'marks': {'hindi': 12, 'english': 65, 'maths': 23}},
+    18: {'name': 'Dinesh', 'phone': 432109876, 'address': 'Jhansi', 'marks': {'hindi': 23, 'english': 76, 'maths': 34}},
+    19: {'name': 'Rakesh', 'phone': 321098765, 'address': 'Bareilly', 'marks': {'hindi': 34, 'english': 87, 'maths': 45}},
+    20: {'name': 'Suresh', 'phone': 210987654, 'address': 'Moradabad', 'marks': {'hindi': 45, 'english': 98, 'maths': 56}}
+}
