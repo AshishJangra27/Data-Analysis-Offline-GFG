@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Python List Explorer</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #000000;
+            --accent-color: #2f8d46;
+            --border-color: #cccccc;
+            --font-family: 'SF Mono', 'Consolas', 'Menlo', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-family);
+            font-size: 14px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            height: 8vh;
+            display: flex;
+            align-items: center;
+            padding: 0 2vw;
+            border-bottom: 1px solid var(--border-color);
+            flex-shrink: 0;
+        }
+
+        header img {
+            height: 32px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            font-size: 1.5em;
+            font-weight: 500;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+
+        #list-visualization {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2vh 2vw;
+            min-height: 0;
+        }
+
+        #list-container {
+            display: flex;
+            gap: 1.5vw;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .list-item {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border: 2px solid var(--text-color);
+            border-radius: 4px;
+            background-color: var(--bg-color);
+            transition: all 0.4s ease-in-out;
+            animation: item-enter 0.5s ease-out;
+        }
+        
+        @keyframes item-enter {
+            from { opacity: 0; transform: scale(0.5); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .list-item.highlight {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 12px var(--accent-color);
+            transform: scale(1.1);
+        }
+
+        .item-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            word-break: break-all;
+            padding: 0 5px;
+        }
+
+        .item-index {
+            position: absolute;
+            top: 4px;
+            left: 5px;
+            font-size: 0.9em;
+            background-color: var(--bg-color);
+            padding: 0 3px;
+            color: #555;
+        }
+
+        #explanation-text-container {
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        #explanation-text {
+            color: var(--accent-color);
+            font-size: 1.2em;
+            font-style: italic;
+            text-align: center;
+            padding: 0 2vw;
+            height: 2.5em; 
+            line-height: 1.25em;
+        }
+
+        #controls-area {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 2vh 2vw;
+            border-top: 1px solid var(--border-color);
+            background-color: #fcfcfc;
+            flex-shrink: 0;
+        }
+
+        .control-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            align-items: center;
+        }
+        
+        #demo-controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .input-group {
+            display: flex;
+        }
+
+        input, button {
+            font-family: var(--font-family);
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1em;
+            outline: none;
+        }
+        
+        input {
+            flex-grow: 1;
+            min-width: 50px;
+            border-right: none;
+            border-radius: 4px 0 0 4px;
+        }
+
+        input:focus {
+            border-color: var(--accent-color);
+        }
+        
+        .input-group input:not(:first-child) {
+             border-left: 1px solid var(--border-color);
+             border-radius: 0;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #f0f0f0;
+            border-radius: 0 4px 4px 0;
+            white-space: nowrap;
+        }
+        
+        #demo-controls button {
+             border-radius: 4px;
+        }
+
+        button:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+        
+        button.active {
+            background-color: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        footer {
+            height: 6vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2vw;
+            border-top: 1px solid var(--border-color);
+            flex-shrink: 0;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: all 0.2s;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="GFG Logo">
+        <h1>Python List Explorer</h1>
+    </header>
+
+    <main>
+        <div id="list-visualization">
+            <div id="list-container"></div>
+        </div>
+        <div id="explanation-text-container">
+            <p id="explanation-text">Welcome! Click 'Randomize' or 'Auto-Run' to begin.</p>
+        </div>
+        <div id="controls-area">
+            <div id="demo-controls">
+                <button id="btn-reset">Reset</button>
+                <button id="btn-randomize">Randomize</button>
+                <button id="btn-auto-run">Auto-Run Demo</button>
+                <button id="btn-next-step">Next Step</button>
+            </div>
+            <div class="control-group" id="manual-controls">
+                <div class="input-group">
+                    <input type="text" id="input-set" placeholder="e.g., 1, cat, 3.14">
+                    <button id="btn-set">Set List</button>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="input-append" placeholder="Value to append">
+                    <button id="btn-append">Append</button>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="input-access" placeholder="Index to access" min="0">
+                    <button id="btn-get">Get Value</button>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="input-remove-val" placeholder="Value to remove (first)">
+                    <button id="btn-remove-val">Remove Value</button>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="input-insert-idx" placeholder="Index" min="0">
+                    <input type="text" id="input-insert-val" placeholder="Value">
+                    <button id="btn-insert">Insert</button>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="input-remove-idx" placeholder="Index to remove" min="0">
+                    <button id="btn-remove-idx">Remove Index</button>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="input-modify-idx" placeholder="Index" min="0">
+                    <input type="text" id="input-modify-val" placeholder="New Value">
+                    <button id="btn-modify">Modify</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/AshishJangra27/" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ashish-jangra/" target="_blank">LinkedIn</a>
+    </footer>
+
+    <script>
+        'use strict';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- STATE ---
+            let listData = [];
+            let demoSequence = [];
+            let currentDemoStep = 0;
+            let isAutoRunning = false;
+            let autoRunInterval = null;
+
+            // --- DOM ELEMENTS ---
+            const listContainer = document.getElementById('list-container');
+            const explanationText = document.getElementById('explanation-text');
+            const allInputs = document.querySelectorAll('input');
+
+            // --- CORE FUNCTIONS ---
+            const updateExplanation = (text) => {
+                explanationText.textContent = text;
+            };
+
+            const highlightIndex = (index, duration = 1500) => {
+                const items = listContainer.children;
+                if (items[index]) {
+                    items[index].classList.add('highlight');
+                    setTimeout(() => {
+                        items[index].classList.remove('highlight');
+                    }, duration);
+                }
+            };
+
+            const renderList = () => {
+                listContainer.innerHTML = '';
+                listData.forEach((value, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'list-item';
+                    
+                    const valueEl = document.createElement('span');
+                    valueEl.className = 'item-value';
+                    valueEl.textContent = value;
+                    
+                    const indexEl = document.createElement('span');
+                    indexEl.className = 'item-index';
+                    indexEl.textContent = index;
+                    
+                    item.appendChild(valueEl);
+                    item.appendChild(indexEl);
+                    listContainer.appendChild(item);
+                });
+            };
+            
+            const stopAutoRun = () => {
+                if (isAutoRunning) {
+                    clearInterval(autoRunInterval);
+                    isAutoRunning = false;
+                    document.getElementById('btn-auto-run').classList.remove('active');
+                    document.getElementById('btn-auto-run').textContent = 'Auto-Run Demo';
+                }
+            };
+
+            // --- OPERATION HANDLERS ---
+            const handleSetList = () => {
+                stopAutoRun();
+                const input = document.getElementById('input-set').value.trim();
+                if (input === '') {
+                    listData = [];
+                } else {
+                    listData = input.split(',').map(s => s.trim());
+                }
+                renderList();
+                updateExplanation(`List set to [${listData.join(', ')}].`);
+            };
+
+            const handleAppend = () => {
+                stopAutoRun();
+                const value = document.getElementById('input-append').value;
+                if(value.trim() === '') {
+                    updateExplanation('Cannot append an empty value.');
+                    return;
+                }
+                listData.push(value);
+                renderList();
+                updateExplanation(`Appended value '${value}' to the list.`);
+                highlightIndex(listData.length - 1);
+            };
+
+            const handleGetValue = () => {
+                stopAutoRun();
+                const index = parseInt(document.getElementById('input-access').value, 10);
+                if (isNaN(index) || index < 0 || index >= listData.length) {
+                    updateExplanation(`Error: Index ${index} is out of bounds.`);
+                    return;
+                }
+                const value = listData[index];
+                updateExplanation(`Value at index ${index} is '${value}'.`);
+                highlightIndex(index);
+            };
+
+            const handleInsert = () => {
+                stopAutoRun();
+                const index = parseInt(document.getElementById('input-insert-idx').value, 10);
+                const value = document.getElementById('input-insert-val').value;
+                if (value.trim() === '') {
+                    updateExplanation('Cannot insert an empty value.');
+                    return;
+                }
+                if (isNaN(index) || index < 0 || index > listData.length) {
+                    updateExplanation(`Error: Cannot insert at index ${index}. Valid range is 0 to ${listData.length}.`);
+                    return;
+                }
+                listData.splice(index, 0, value);
+                renderList();
+                updateExplanation(`Inserted '${value}' at index ${index}.`);
+                highlightIndex(index);
+            };
+
+            const handleRemoveValue = () => {
+                stopAutoRun();
+                const value = document.getElementById('input-remove-val').value;
+                const index = listData.indexOf(value);
+                if (index === -1) {
+                    updateExplanation(`Value '${value}' not found in the list.`);
+                    return;
+                }
+                listData.splice(index, 1);
+                renderList();
+                updateExplanation(`Removed first occurrence of '${value}' from index ${index}.`);
+            };
+
+            const handleRemoveIndex = () => {
+                stopAutoRun();
+                const index = parseInt(document.getElementById('input-remove-idx').value, 10);
+                if (isNaN(index) || index < 0 || index >= listData.length) {
+                    updateExplanation(`Error: Index ${index} is out of bounds.`);
+                    return;
+                }
+                const removedValue = listData.splice(index, 1);
+                renderList();
+                updateExplanation(`Removed value '${removedValue}' from index ${index}.`);
+            };
+
+            const handleModify = () => {
+                stopAutoRun();
+                const index = parseInt(document.getElementById('input-modify-idx').value, 10);
+                const value = document.getElementById('input-modify-val').value;
+                 if (value.trim() === '') {
+                    updateExplanation('Cannot modify to an empty value.');
+                    return;
+                }
+                if (isNaN(index) || index < 0 || index >= listData.length) {
+                    updateExplanation(`Error: Index ${index} is out of bounds.`);
+                    return;
+                }
+                listData[index] = value;
+                renderList();
+                updateExplanation(`Set index ${index} to '${value}'.`);
+                highlightIndex(index);
+            };
+
+            // --- DEMO & UTILITY HANDLERS ---
+            const resetList = (initialState = ['py', 'is', 'fun']) => {
+                stopAutoRun();
+                listData = [...initialState];
+                renderList();
+                updateExplanation('List has been reset to its initial state.');
+                currentDemoStep = 0;
+            };
+
+            const randomizeList = () => {
+                stopAutoRun();
+                const size = Math.floor(Math.random() * 5) + 3; // 3-7 items
+                listData = Array.from({ length: size }, () => Math.floor(Math.random() * 100));
+                renderList();
+                updateExplanation('Generated a new random list.');
+                currentDemoStep = 0;
+            };
+
+            const defineDemoSequence = () => {
+                demoSequence = [
+                    () => { listData = ['a', 'b', 'c']; renderList(); updateExplanation("Step 1: Starting with a fresh list: ['a', 'b', 'c']"); },
+                    () => { listData.push('d'); renderList(); updateExplanation("Step 2: Appending 'd' to the list."); highlightIndex(3); },
+                    () => { listData.splice(1, 0, 'X'); renderList(); updateExplanation("Step 3: Inserting 'X' at index 1."); highlightIndex(1); },
+                    () => { updateExplanation(`Step 4: Accessing value at index 2, which is '${listData[2]}'.`); highlightIndex(2); },
+                    () => { listData[4] = 'Z'; renderList(); updateExplanation("Step 5: Modifying element at index 4 to 'Z'."); highlightIndex(4); },
+                    () => { const i = listData.indexOf('b'); listData.splice(i, 1); renderList(); updateExplanation("Step 6: Removing the first occurrence of 'b'."); },
+                    () => { listData.splice(0, 1); renderList(); updateExplanation("Step 7: Removing the element at index 0."); },
+                    () => { updateExplanation("Demo complete! Feel free to experiment manually."); currentDemoStep = 0; stopAutoRun(); }
+                ];
+            };
+            
+            const handleNextStep = () => {
+                stopAutoRun();
+                if(demoSequence.length === 0 || currentDemoStep === 0) defineDemoSequence();
+                demoSequence[currentDemoStep]();
+                currentDemoStep = (currentDemoStep + 1) % demoSequence.length;
+            };
+            
+            const handleAutoRun = (e) => {
+                isAutoRunning = !isAutoRunning;
+                if(isAutoRunning) {
+                    e.target.classList.add('active');
+                    e.target.textContent = 'Pause Demo';
+                    handleNextStep(); // Run the first step immediately
+                    autoRunInterval = setInterval(handleNextStep, 2500);
+                } else {
+                    stopAutoRun();
+                }
+            };
+            
+            // --- EVENT LISTENERS ---
+            document.getElementById('btn-set').addEventListener('click', handleSetList);
+            document.getElementById('btn-append').addEventListener('click', handleAppend);
+            document.getElementById('btn-get').addEventListener('click', handleGetValue);
+            document.getElementById('btn-insert').addEventListener('click', handleInsert);
+            document.getElementById('btn-remove-val').addEventListener('click', handleRemoveValue);
+            document.getElementById('btn-remove-idx').addEventListener('click', handleRemoveIndex);
+            document.getElementById('btn-modify').addEventListener('click', handleModify);
+            
+            document.getElementById('btn-reset').addEventListener('click', () => resetList());
+            document.getElementById('btn-randomize').addEventListener('click', randomizeList);
+            document.getElementById('btn-next-step').addEventListener('click', handleNextStep);
+            document.getElementById('btn-auto-run').addEventListener('click', handleAutoRun);
+
+            allInputs.forEach(input => {
+                input.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        const button = e.target.parentElement.querySelector('button');
+                        if(button) button.click();
+                    }
+                });
+            });
+
+            // --- INITIALIZATION ---
+            resetList();
+            defineDemoSequence();
+        });
+    </script>
+</body>
+</html>
