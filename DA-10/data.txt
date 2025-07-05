@@ -1,0 +1,5 @@
+dct = {101: {'name': 'Alice Johnson', 'address': '123 Main St, Anytown, CA 91234', 'phone': ['555-123-4567'], 'marks': {'eng': 85, 'hindi': 78, 'maths': 92}},
+       102: {'name': 'Bob Williams', 'address': '456 Oak Ave, Somewhere, TX 75001', 'phone': ['555-987-6543'], 'marks': {'eng': 70, 'hindi': 88, 'maths': 75}},
+       103: {'name': 'Charlie Brown', 'address': '789 Pine Ln, Elsewhere, FL 33101', 'phone': ['555-555-1212'], 'marks': {'eng': 95, 'hindi': 90, 'maths': 80}},
+       104: {'name': 'Diana Miller', 'address': '101 Maple Dr, Anytime, NY 10001', 'phone': ['555-222-3333'], 'marks': {'eng': 88, 'hindi': 75, 'maths': 96}},
+       105: {'name': 'Ethan Davis', 'address': '222 Elm Ct, Anywhere, IL 60601', 'phone': ['555-444-5555'], 'marks': {'eng': 78, 'hindi': 82, 'maths': 88}}}
