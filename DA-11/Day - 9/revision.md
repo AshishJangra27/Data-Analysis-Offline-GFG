@@ -1,0 +1,16 @@
+- Databases
+- Relational Databases (SQL) | Postgres, MySQL
+- NoSQL Database | MongoDB
+- Properties of Database
+- SQL
+- DDL vs DML vs DCL vs TCL vs DQL
+- Where & Operators
+- Order BY
+- Limit & Offset
+- Group By
+- Joins & its types
+- Window Fns
+- PartitionBy vs GroupBy
+- Subquery
+- Views
+- Temporary Tables
