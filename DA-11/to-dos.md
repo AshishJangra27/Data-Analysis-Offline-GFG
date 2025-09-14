@@ -1,0 +1,4 @@
+- LinkedIn (Posts, Profile, Make Connections)
+- Github (Project Documentation, Profile)
+- Kaggle (Project Documentation, Profile, Project, Dataset)
+- Resume (Certificates, About, Highlights, Add number)
