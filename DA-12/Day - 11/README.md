@@ -1,0 +1,24 @@
+- What is a Database?
+- SQL vs NoSQL Database
+- DDL vs DML vs TCL vs DQL vs DCL
+- DDL Queries
+- DML Queries
+- Datatypes
+- Constraints
+- Functions in SQL
+- Where
+- Order By
+- Limit & Offset
+- Keys
+- Joins
+- GroupBy
+- Having
+- Window Fns (row_number, rank, dense_rank)
+- Partition By and Order By
+- Subqueries
+- Views
+- Regex
+- Temporary tables
+- Saving the results
+- Data Cleaning with SQL
+- CTE
