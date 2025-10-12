@@ -1,0 +1,12 @@
+No of Products Listed	168029	146438	146435
+No of Brands	3194		
+No of categories	341		
+Most Expensive Product Price	45900		
+Least Expensive Product Price	49		
+Average Expensive Product Price	1515.168757		
+Average Rating	2.26		
+Total Products Sold(rating_count)	19267660		
+Total Revenue Generated	16088699211		
+Most Discounted Product Price	91		
+Least Discounted Product Price	0		
+Average Discounted Product Price	37.29		![Uploading image.png…]()
