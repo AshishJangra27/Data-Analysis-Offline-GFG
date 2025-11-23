@@ -1,0 +1,20 @@
+- What is a Database?
+- What is SQL?
+- SQL vs NoSQL databases?
+- CRUD Operations
+- DDL, DML, TCL, DCL, DQL
+- Constraints
+- Datatypes
+- Keys (Primary, Foreign, Composite, Super, Candidate, Alternate, etc)
+- Joins
+- Order by
+- Limit & Offset
+- Group by
+- Subqueries
+- Window Fns and their types
+- Views
+- Temporary Tables
+- CTE
+- Data Cleaning
+- Saving Results
+- Regular Expression (Like, REGXP
