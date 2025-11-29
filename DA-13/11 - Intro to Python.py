@@ -1,3 +1,6 @@
+# https://github.com/AshishJangra27/interview-questions/blob/main/Conditions%20in%20Python.md
+
+
 # int
 print(12, type(12))
 
