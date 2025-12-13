@@ -17,3 +17,25 @@ if isSquare:
     print('Square Matrix')
 else:
     print('Not a Square')
+
+
+# Create a list with only even elements
+
+lst =  [[1,2,3,4],
+        [4,5,6,2],
+        [7,8,9,4],
+        [7,8,9,4]]
+
+lst_clean = []
+
+for i in range(len(lst)):
+    
+    lst_ = []
+    for j in range(len(lst[i])):
+        if lst[i][j]%2 == 0:
+            lst_.append(lst[i][j])
+    lst_clean.append((lst_))
+    
+            
+print(lst_clean)
+
