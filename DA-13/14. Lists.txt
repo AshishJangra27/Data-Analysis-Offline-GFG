@@ -50,7 +50,21 @@ s = 0
 for i in range(len(lst)):
     if (lst[i][0] == roll_no):
         print(lst[i][4])
-    
+
+
+
+data = {
+        101 : {'name' : 'ashish', 'section' : 'DA-12', 'phone_no' : [1239071290,4124312] }, 
+        102 : {'name' : 'hitesh', 'section' : 'DA-12', 'phone_no' : [1239071290,234234,23423423] }, 
+        103 : {'name' : 'manish', 'section' : 'DA-12', 'phone_no' : [1239071290] }
+    }
+
+roll_no = int(input('enter the roll no : '))
+
+print(data[roll_no]['name'])
+print(data[roll_no]['section'])
+print(data[roll_no]['phone_no'])
+
 
 
     
