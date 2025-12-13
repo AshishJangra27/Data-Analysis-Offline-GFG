@@ -35,6 +35,24 @@ for i in range(len(lst)):
         if lst[i][j]%2 == 0:
             lst_.append(lst[i][j])
     lst_clean.append((lst_))
+
+
+
+
+lst =  [[101,'Ashish','Noida',12793812,'D-12',56],
+        [102,'Ashish','Noida',12793812,'D-12',65],
+        [103,'Ashish','Noida',12793812,'MERN-12',76],
+        [104,'Ashish','Noida',12793812,'D-13',76]]
+
+roll_no = int(input('enter the roll no : '))
+
+s = 0    
+for i in range(len(lst)):
+    if (lst[i][0] == roll_no):
+        print(lst[i][4])
+    
+
+
     
             
 print(lst_clean)
