@@ -1,1 +1,63 @@
 https://colab.research.google.com/drive/1J9BRG8lhEnxRr20Tt2LmuAgI1qrxQhRN?usp=sharing
+
+
+## 1. Content Category Analysis
+*(Based on: `clean_tags`, `title`, content volume)*
+
+1. How many unique content categories (clean_tags) exist in the dataset?
+2. What is the total number of articles in each content category?
+3. Which content categories contribute the highest and lowest number of articles?
+4. What percentage of the overall dataset does each category represent?
+5. Are a small number of categories responsible for most of the content volume?
+6. How does the distribution of content categories differ across years?
+7. Which categories show consistent publishing activity over time?
+8. Are there categories that appear only in specific years or periods?
+9. How frequently are interview-related articles published compared to technical articles?
+10. Do certain content categories tend to have more images than others?
+11. Are some categories predominantly text-only across the dataset?
+12. How does category diversity change as the platform grows in size?
+13. Which categories show recent growth based on latest update dates?
+14. Are legacy categories still actively maintained or largely inactive?
+15. Can content categories be grouped into broader themes based on publishing behavior?
+
+---
+
+## 2. Time-Based Content Growth Analysis
+*(Based on: `last_updated_year`, `last_updated_month`, `last_updated_date`)*
+
+1. How many articles were updated or published in each year?
+2. What is the year-over-year growth rate of content volume?
+3. Which years experienced the highest increase in content updates?
+4. Are there years with unusually low publishing activity?
+5. How does content volume in recent years compare with earlier years?
+6. What is the monthly distribution of content updates across all years?
+7. Are certain months consistently associated with higher content activity?
+8. Do technical articles and interview articles follow similar yearly trends?
+9. Has content updating become more frequent in recent years?
+10. How evenly is content creation distributed across the calendar year?
+11. Are there noticeable seasonal patterns in content updates?
+12. Which years show the highest diversity of content categories?
+13. Are older articles being actively updated in recent years?
+14. How much of the total dataset was updated in the last two years?
+15. Does platform growth indicate a shift toward specific types of content over time?
+
+---
+
+## 3. Publishing Behavior Analysis
+*(Based on: `day_of_week`, `last_updated_month`, `clean_tags`)*
+
+1. On which day of the week are most articles updated or published?
+2. Which weekdays show consistently low publishing activity?
+3. Is there a clear preference for weekday versus weekend publishing?
+4. How does publishing behavior vary across different content categories?
+5. Are interview-related articles published on different days than technical articles?
+6. Does day-of-week publishing behavior change across years?
+7. Are specific days associated with bulk content updates?
+8. How evenly is publishing activity distributed across all weekdays?
+9. Do high-volume months show different weekday patterns?
+10. Are newer articles more likely to be published on specific days?
+11. Does publishing frequency increase during certain months of the year?
+12. Are content updates clustered around particular weekdays within a month?
+13. Which day of the week shows the highest category diversity?
+14. Is there a correlation between publishing day and number of images used?
+15. Can optimal publishing days be inferred from historical publishing patterns?
