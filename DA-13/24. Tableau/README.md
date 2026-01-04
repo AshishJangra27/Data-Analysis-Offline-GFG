@@ -1,0 +1,7 @@
+- Number of articles published in each category
+- no of articles as per day of the week
+- no of articles as per day of the month
+- no of articles as per day of the year
+- no of articles as per month
+- on which day maximum number of articles published through GFG history
+- which category has most number of images in the articles
