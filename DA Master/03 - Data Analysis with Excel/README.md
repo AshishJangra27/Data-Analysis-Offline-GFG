@@ -10,3 +10,8 @@
 - Most Discounted Product Price
 - Least Discounted Product Price
 - Average Discounted Product Price
+
+
+- brand_name|	no _of_products		
+
+- product_category	| no _of_products
