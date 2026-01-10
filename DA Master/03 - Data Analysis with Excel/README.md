@@ -1,0 +1,12 @@
+- No of Products Listed
+- No of Brands
+- No of categories
+- Most Expensive Product Price
+- Least Expensive Product Price
+- Average Expensive Product Price
+- Average Rating
+- Total Products Sold
+- Total Revenue Generated
+- Most Discounted Product Price
+- Least Discounted Product Price
+- Average Discounted Product Price
